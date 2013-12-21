@@ -1,0 +1,7 @@
+[{ "patient_id": "100", "patient_name": "Catherine Reed", "patient_study_id": "NCT1235", "patient_doctor": "Dr OZ"},
+ { "patient_id": "101", "patient_name": "Sam Downing", "patient_study_id": "NCT1234", "patient_doctor": "Dr Phil"},
+ { "patient_id": "102", "patient_name": "Patrica Dearheart", "patient_study_id": "Internal-100", "patient_doctor": "Dr OZ"},
+ { "patient_id": "103", "patient_name": "Paul D. Neuman", "patient_study_id": "NCT1237", "patient_doctor": "Dr Phil"},
+ {"patient_id": "104", "patient_name": "Barbara Baseline", "patient_study_id": "NCT1237", "patient_doctor": "Dr Sanjay Gupta"},
+ {"patient_id": "105", "patient_name": "Sandra Dancer 5th", "patient_study_id": "NCT1237", "patient_doctor": "Dr Phil"},
+ {"patient_id": "106", "patient_name": "Linda Norther", "patient_study_id": "NCT1238", "patient_doctor": "Dr Sanjay Gupta"}]

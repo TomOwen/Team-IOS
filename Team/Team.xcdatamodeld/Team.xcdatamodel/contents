@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Doctor" representedClassName="Doctor" syncable="YES">
+        <attribute name="doctor_info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctor_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Lesion" representedClassName="Lesion" syncable="YES">
+        <attribute name="lesion_comment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesion_media_online" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesion_media_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesion_node" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lesion_number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lesion_patient_id" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lesion_scan_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lesion_size" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lesion_target" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES">
+        <attribute name="patient_doctor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patient_id" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="patient_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="patient_study_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Scan" representedClassName="Scan" syncable="YES">
+        <attribute name="scan_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="scan_patient_id" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="scan_report_online" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="company_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doc_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Studies" representedClassName="Studies" syncable="YES">
+        <attribute name="study_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="study_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="study_owner" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="study_percentpd" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="study_percentpr" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="study_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES">
+        <attribute name="user_admin_access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Doctor" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Lesion" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="Patient" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Scan" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Settings" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Studies" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="Users" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

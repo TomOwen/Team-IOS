@@ -1,0 +1,47 @@
+ [{ "lesion_patient_id": "100", "lesion_scan_date": "12/08/11", "lesion_number": "1", "lesion_size": "11.0", "lesion_comment": "Chest image 106 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "12/08/11", "lesion_number": "2", "lesion_size": "2.0", "lesion_comment": "Chest Clavical image 212 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "12/08/11", "lesion_number": "3", "lesion_size": ".8", "lesion_comment": "Left Leg", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "N", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "100", "lesion_scan_date": "3/9/12", "lesion_number": "1", "lesion_size": "10.0", "lesion_comment": "Abdomen 46 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "3/9/12", "lesion_number": "2", "lesion_size": "1.7", "lesion_comment": "Right Lung image 22 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "3/9/12", "lesion_number": "3", "lesion_size": "0", "lesion_comment": "Left Leg", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "N", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "100", "lesion_scan_date": "6/25/12", "lesion_number": "1", "lesion_size": "0", "lesion_comment": "Chest image 47 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "6/25/12", "lesion_number": "2", "lesion_size": "0", "lesion_comment": "Chest Clavical image 98 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "100", "lesion_scan_date": "6/25/12", "lesion_number": "3", "lesion_size": "0", "lesion_comment": "Left Leg", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "N", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "101", "lesion_scan_date": "2/24/12", "lesion_number": "1", "lesion_size": "30.7", "lesion_comment": "Lower Legs - QT Movie", "lesion_target": "Y", "lesion_media_type": "mov", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "101", "lesion_scan_date": "2/24/12", "lesion_number": "2", "lesion_size": "20.6", "lesion_comment": "Hip  image 22 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "101", "lesion_scan_date": "2/24/12", "lesion_number": "3", "lesion_size": "9.5", "lesion_comment": "Right Lung", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "101", "lesion_scan_date": "5/14/12", "lesion_number": "1", "lesion_size": "30.5", "lesion_comment": "Lower Leg - QT movie", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "N", "lesion_node": "N"},
+  { "lesion_patient_id": "101", "lesion_scan_date": "5/14/12", "lesion_number": "2", "lesion_size": "20.0", "lesion_comment": "Hip image 98 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "101", "lesion_scan_date": "5/14/12", "lesion_number": "3", "lesion_size": "9.5", "lesion_comment": "Left Lung Shrinkage", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "102", "lesion_scan_date": "12/20/11", "lesion_number": "1", "lesion_size": "29.0", "lesion_comment": "Right Arm image 106 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "102", "lesion_scan_date": "12/20/11", "lesion_number": "2", "lesion_size": "20.7", "lesion_comment": "Right Neck image 212 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  
+  { "lesion_patient_id": "102", "lesion_scan_date": "3/24/12", "lesion_number": "1", "lesion_size": "28.0", "lesion_comment": "Right Arm image 46 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "102", "lesion_scan_date": "3/24/12", "lesion_number": "2", "lesion_size": "20.7", "lesion_comment": "Right Neck image 22 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  
+  { "lesion_patient_id": "102", "lesion_scan_date": "6/20/12", "lesion_number": "1", "lesion_size": "37.0", "lesion_comment": "Right Arm image 47 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "102", "lesion_scan_date": "6/20/12", "lesion_number": "2", "lesion_size": "27", "lesion_comment": "Right Neck image 98 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  
+  { "lesion_patient_id": "103", "lesion_scan_date": "2/24/12", "lesion_number": "1", "lesion_size": "30.5", "lesion_comment": "Middle Spine image 106 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "103", "lesion_scan_date": "2/24/12", "lesion_number": "2", "lesion_size": "20.7", "lesion_comment": "Spleen image 212 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  
+  { "lesion_patient_id": "103", "lesion_scan_date": "5/28/12", "lesion_number": "1", "lesion_size": "30.5", "lesion_comment": "Spleen image 88 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "103", "lesion_scan_date": "5/28/12", "lesion_number": "2", "lesion_size": "20.7", "lesion_comment": "Spine image 29 series 4", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "103", "lesion_scan_date": "5/28/12", "lesion_number": "3", "lesion_size": "12", "lesion_comment": "New Met 29 series 4", "lesion_target": "N", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "104", "lesion_scan_date": "10/21/11", "lesion_number": "1", "lesion_size": "10.4", "lesion_comment": "Liver image 47 Series 2", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "105", "lesion_scan_date": "4/18/12", "lesion_number": "1", "lesion_size": "10.0", "lesion_comment": "Left Brain", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  { "lesion_patient_id": "105", "lesion_scan_date": "7/6/12", "lesion_number": "1", "lesion_size": "14.0", "lesion_comment": "Left Brain", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "N"},
+  
+  { "lesion_patient_id": "106", "lesion_scan_date": "4/13/12", "lesion_number": "1", "lesion_size": "25.0", "lesion_comment": "Lymph Node - short axis", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "Y"},
+  { "lesion_patient_id": "106", "lesion_scan_date": "7/13/12", "lesion_number": "1", "lesion_size": "9.9", "lesion_comment": "Lymph Node - resolved", "lesion_target": "Y", "lesion_media_type": "jpg", "lesion_media_online": "Y", "lesion_node": "Y"}]

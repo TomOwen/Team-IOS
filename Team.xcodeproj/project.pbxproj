@@ -1,0 +1,1503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5801A49F15FE4B23006204E2 /* team5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A49E15FE4B23006204E2 /* team5757.png */; };
+		5801A4A215FE4C3B006204E2 /* team114114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4A115FE4C3B006204E2 /* team114114.png */; };
+		5801A4A915FE4DB6006204E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4A815FE4DB6006204E2 /* Default@2x.png */; };
+		5801A4AB15FE4E48006204E2 /* team7272.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4AA15FE4E48006204E2 /* team7272.png */; };
+		5801A4AD15FE4EB5006204E2 /* team144144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4AC15FE4EB5006204E2 /* team144144.png */; };
+		5801A4AF15FE500D006204E2 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4AE15FE500D006204E2 /* Default-Portrait@2x~ipad.png */; };
+		5801A4B115FE511D006204E2 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4B015FE511D006204E2 /* Default-Landscape@2x~ipad.png */; };
+		5801A4B315FE586C006204E2 /* teamlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801A4B215FE586C006204E2 /* teamlogo.png */; };
+		5818774616176459004EEBE5 /* StudyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5818774516176459004EEBE5 /* StudyMap.m */; };
+		5818774716177005004EEBE5 /* PatientAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D1925C1576899500424EC2 /* PatientAdd.m */; };
+		5818774A161787C3004EEBE5 /* DocandStudyMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 58187749161787C3004EEBE5 /* DocandStudyMap.m */; };
+		581EFA5415990237009165AC /* Doctor.json in Resources */ = {isa = PBXBuildFile; fileRef = 581EFA5315990237009165AC /* Doctor.json */; };
+		581EFA6015993CFA009165AC /* RecistWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581EFA5F15993CFA009165AC /* RecistWebView.m */; };
+		5821B4C31621FB9600661EC2 /* ScanEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1304F157FBA650085DC71 /* ScanEdit.m */; };
+		5821B4C616220E3400661EC2 /* ReportParamsMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5821B4C516220E3400661EC2 /* ReportParamsMap.m */; };
+		5821B4C9162216F900661EC2 /* LesionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5821B4C8162216F900661EC2 /* LesionMap.m */; };
+		58448848161E015D000DEC59 /* DoctorAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E330FF157AAB360098E873 /* DoctorAdd.m */; };
+		58448849161E180B000DEC59 /* StudyEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC96FD1577DE1F006628C1 /* StudyEdit.m */; };
+		5844884A161E32F9000DEC59 /* StudyAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D1926515768E7900424EC2 /* StudyAdd.m */; };
+		584F63401634C18C008CA73F /* login1.png in Resources */ = {isa = PBXBuildFile; fileRef = 584F633F1634C18C008CA73F /* login1.png */; };
+		5851409A15E70F26007FD59E /* response-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5851409915E70F26007FD59E /* response-thumb.png */; };
+		5854467B1620CEC300E4D469 /* ScanAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1CC7A157D173B00E1D084 /* ScanAdd.m */; };
+		585A3BB215EC56970051DF31 /* recist-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 585A3BB115EC56970051DF31 /* recist-info.png */; };
+		585D85BF168E4E5600532E62 /* StudyGraphDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 585D85BE168E4E5600532E62 /* StudyGraphDisplay.m */; };
+		5862303A16161055001200C0 /* PatientMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5862303916161055001200C0 /* PatientMap.m */; };
+		5862303D161645D9001200C0 /* DoctorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5862303C161645D9001200C0 /* DoctorMap.m */; };
+		586511B2168FA23C00BC5F55 /* StudyPieDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 586511B1168FA23C00BC5F55 /* StudyPieDisplay.m */; };
+		5865705E16334C620060A571 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E4FD4216332A29009717BB /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5870C412168CC31300C435B9 /* icon_graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 5870C411168CC31300C435B9 /* icon_graph.png */; };
+		5870C415168CC45300C435B9 /* TeamGraphResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5870C414168CC45300C435B9 /* TeamGraphResponse.m */; };
+		587FE38115B2008E0017C725 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 587FE38015B2008E0017C725 /* Default-Portrait~ipad.png */; };
+		587FE38315B200990017C725 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 587FE38215B200990017C725 /* Default-Landscape~ipad.png */; };
+		587FE38515B202980017C725 /* teamrecist.png in Resources */ = {isa = PBXBuildFile; fileRef = 587FE38415B202980017C725 /* teamrecist.png */; };
+		587FE38715B209A90017C725 /* teamtext2.png in Resources */ = {isa = PBXBuildFile; fileRef = 587FE38615B209A90017C725 /* teamtext2.png */; };
+		588B47C415AB839100FEA035 /* UsersGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 588B47C315AB839100FEA035 /* UsersGuide.m */; };
+		588D6579158BB5DD004C399D /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 588D6578158BB5DD004C399D /* happy.png */; };
+		58929EC8162B62420015D9A0 /* TeamResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 58929EC7162B62420015D9A0 /* TeamResponse.m */; };
+		58929ECB162B80030015D9A0 /* ResponseMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 58929ECA162B80030015D9A0 /* ResponseMap.m */; };
+		589AF8B115D49077001C687F /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 589AF8B015D49077001C687F /* login.png */; };
+		589AF8B415D49088001C687F /* patients.png in Resources */ = {isa = PBXBuildFile; fileRef = 589AF8B315D49088001C687F /* patients.png */; };
+		589AF8BB15D4A6D7001C687F /* login.html in Resources */ = {isa = PBXBuildFile; fileRef = 589AF8BA15D4A6D7001C687F /* login.html */; };
+		58B88A6F1620A6BC007C5830 /* ScanDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1CC77157D105200E1D084 /* ScanDisplay.m */; };
+		58B88A721620A95B007C5830 /* ScanMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B88A711620A95B007C5830 /* ScanMap.m */; };
+		58B8936615E003A100FE1957 /* scan-movie.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58B8936515E003A100FE1957 /* scan-movie.tiff */; };
+		58B8936915E0087100FE1957 /* scan-details-on.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58B8936815E0087000FE1957 /* scan-details-on.tiff */; };
+		58B8936B15E00ADE00FE1957 /* study-doc.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58B8936A15E00ADD00FE1957 /* study-doc.tiff */; };
+		58B8936D15E00FF400FE1957 /* response.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58B8936C15E00FF400FE1957 /* response.tiff */; };
+		58B8936F15E014D800FE1957 /* details-report.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58B8936E15E014D800FE1957 /* details-report.tiff */; };
+		58C0762415E06CE100C834DE /* response-report.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C0762315E06CE100C834DE /* response-report.tiff */; };
+		58C1AD7F1594EED50066D148 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C1AD7E1594EED50066D148 /* Default.png */; };
+		58C1AD8215950E3E0066D148 /* humming5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C1AD8115950E3E0066D148 /* humming5757.png */; };
+		58C1F5081597B8D8007D0096 /* bgblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C1F5071597B8D8007D0096 /* bgblue.png */; };
+		58C263E915A4CA840034C1A3 /* teamtext.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C263E815A4CA840034C1A3 /* teamtext.png */; };
+		58C42382159E1EDD009268F9 /* button_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C42381159E1EDD009268F9 /* button_0.png */; };
+		58C42385159E1EF1009268F9 /* button_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C42384159E1EF1009268F9 /* button_1.png */; };
+		58C42388159E20AD009268F9 /* button_scan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C42386159E20AD009268F9 /* button_scan1.png */; };
+		58C42389159E20AD009268F9 /* button_scan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C42387159E20AD009268F9 /* button_scan2.png */; };
+		58C4238C159E2175009268F9 /* button_before0.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4238A159E2175009268F9 /* button_before0.png */; };
+		58C4238D159E2175009268F9 /* button_before1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4238B159E2175009268F9 /* button_before1.png */; };
+		58C4468C15DD5CED0083D351 /* new-patient.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4468B15DD5CED0083D351 /* new-patient.tiff */; };
+		58C4469015DD65650083D351 /* doctors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4468F15DD65650083D351 /* doctors.tiff */; };
+		58C4469215DD666F0083D351 /* add-doctor.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469115DD666F0083D351 /* add-doctor.tiff */; };
+		58C4469415DD67680083D351 /* delete-doctor.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469315DD67680083D351 /* delete-doctor.tiff */; };
+		58C4469615DD71AF0083D351 /* studies.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469515DD71AF0083D351 /* studies.tiff */; };
+		58C4469A15DD7AD10083D351 /* scans.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469915DD7AD10083D351 /* scans.tiff */; };
+		58C4469C15DD7C160083D351 /* new-scan.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469B15DD7C160083D351 /* new-scan.tiff */; };
+		58C4469E15DD7F1E0083D351 /* scan-details.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C4469D15DD7F1E0083D351 /* scan-details.tiff */; };
+		58C446A215DD88B70083D351 /* scan-image.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C446A115DD88B70083D351 /* scan-image.tiff */; };
+		58C446A415DD89920083D351 /* add-lesion.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58C446A315DD89920083D351 /* add-lesion.tiff */; };
+		58C4A04C15D84B6D00E68D0A /* icon-recist.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4A04B15D84B6D00E68D0A /* icon-recist.png */; };
+		58C4A05215D84F5100E68D0A /* icon-twodoctors.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4A05115D84F5100E68D0A /* icon-twodoctors.png */; };
+		58C4A05615D8678400E68D0A /* icon-scans.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C4A05515D8678400E68D0A /* icon-scans.png */; };
+		58C5BFC01583AB490025D2DA /* 157-wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C5BFBF1583AB490025D2DA /* 157-wrench.png */; };
+		58C6290915AA0286005C7BED /* team40200.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6290815AA0286005C7BED /* team40200.png */; };
+		58C6290C15AA043F005C7BED /* team40200ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6290B15AA043F005C7BED /* team40200ipad.png */; };
+		58C6290E15AA062B005C7BED /* TEAM_logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58C6290D15AA062B005C7BED /* TEAM_logo2.jpg */; };
+		58C6294A15AA1499005C7BED /* questionmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6294915AA1499005C7BED /* questionmark.png */; };
+		58C6294C15AA15ED005C7BED /* questionmark3221.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6294B15AA15ED005C7BED /* questionmark3221.png */; };
+		58C6294F15AA168A005C7BED /* TeamHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6294E15AA168A005C7BED /* TeamHelp.m */; };
+		58C6295115AA1A5A005C7BED /* 84-lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6295015AA1A5A005C7BED /* 84-lightbulb.png */; };
+		58C6295415AA2609005C7BED /* TeamOverview.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6295315AA2609005C7BED /* TeamOverview.m */; };
+		58C6C9CF159A1609006AC342 /* Patient.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9CE159A1609006AC342 /* Patient.json */; };
+		58C6C9D2159A1829006AC342 /* Scan.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9D1159A1829006AC342 /* Scan.json */; };
+		58C6C9D4159A2190006AC342 /* Lesion.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9D3159A2190006AC342 /* Lesion.json */; };
+		58C6C9D6159A2359006AC342 /* Studies.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9D5159A2359006AC342 /* Studies.json */; };
+		58C6C9D8159A256B006AC342 /* Settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9D7159A256B006AC342 /* Settings.json */; };
+		58C6C9E0159A538D006AC342 /* scanner5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C6C9DF159A538D006AC342 /* scanner5757.png */; };
+		58C7F00115A789A100C0BE19 /* TEAM_logo7272.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C7F00015A789A100C0BE19 /* TEAM_logo7272.png */; };
+		58CA21A315C05909004B272D /* uicheckbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CA21A115C05909004B272D /* uicheckbox_unchecked.png */; };
+		58CA21A415C05909004B272D /* uicheckbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CA21A215C05909004B272D /* uicheckbox_checked.png */; };
+		58CA21A815C0592B004B272D /* UICheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CA21A715C0592B004B272D /* UICheckbox.m */; };
+		58CA567B15AF7589007110A5 /* teamtext1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CA567A15AF7589007110A5 /* teamtext1.png */; };
+		58CBBB9015E6B5CF0086A3DF /* choose-image.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58CBBB8D15E6B5CF0086A3DF /* choose-image.tiff */; };
+		58CBBB9215E6B5CF0086A3DF /* compare-images.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58CBBB8F15E6B5CF0086A3DF /* compare-images.tiff */; };
+		58CC8E871592678F00BC297F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CC8E861592678F00BC297F /* MediaPlayer.framework */; };
+		58CC8E891592679C00BC297F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CC8E881592679C00BC297F /* QuartzCore.framework */; };
+		58CC8EAA1592728700BC297F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58CC8EA91592728700BC297F /* Settings.bundle */; };
+		58CF566615D4511B0043977D /* overview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 58CF566515D4511B0043977D /* overview.pdf */; };
+		58CF566A15D46CEB0043977D /* teamweb.html in Resources */ = {isa = PBXBuildFile; fileRef = 58CF566915D46CEB0043977D /* teamweb.html */; };
+		58D19222157676CE00424EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D19221157676CE00424EC2 /* UIKit.framework */; };
+		58D19224157676CE00424EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D19223157676CE00424EC2 /* Foundation.framework */; };
+		58D19226157676CE00424EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D19225157676CE00424EC2 /* CoreGraphics.framework */; };
+		58D19228157676CE00424EC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D19227157676CE00424EC2 /* CoreData.framework */; };
+		58D1922E157676CE00424EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58D1922C157676CE00424EC2 /* InfoPlist.strings */; };
+		58D19230157676CE00424EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D1922F157676CE00424EC2 /* main.m */; };
+		58D19234157676CE00424EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D19233157676CE00424EC2 /* AppDelegate.m */; };
+		58D19237157676CE00424EC2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D19235157676CE00424EC2 /* MainStoryboard_iPhone.storyboard */; };
+		58D1923A157676CE00424EC2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D19238157676CE00424EC2 /* MainStoryboard_iPad.storyboard */; };
+		58D1923D157676CE00424EC2 /* Team.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58D1923B157676CE00424EC2 /* Team.xcdatamodeld */; };
+		58D192561576839100424EC2 /* LogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D192551576839100424EC2 /* LogonViewController.m */; };
+		58D2A6E115A0E175007B029B /* TEAM_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58D2A6E015A0E175007B029B /* TEAM_logo.jpg */; };
+		58D2A6E415A0E710007B029B /* TEAM_logo5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D2A6E315A0E710007B029B /* TEAM_logo5757.png */; };
+		58D4C81F15B34F700051D16A /* teamrecist5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D4C81E15B34F700051D16A /* teamrecist5757.png */; };
+		58D557A915AB6E09002252AD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D557A815AB6E09002252AD /* MessageUI.framework */; };
+		58D6110215D95BA90002EC7B /* icon-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110115D95BA90002EC7B /* icon-login.png */; };
+		58D6110415D95CAD0002EC7B /* icon-team.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110315D95CAD0002EC7B /* icon-team.png */; };
+		58D6110615D95D390002EC7B /* icon-patients.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110515D95D390002EC7B /* icon-patients.png */; };
+		58D6110815D960F10002EC7B /* icon-reports.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110715D960F10002EC7B /* icon-reports.png */; };
+		58D6110A15D967F60002EC7B /* overview.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110915D967F60002EC7B /* overview.html */; };
+		58D6110C15D968C80002EC7B /* contact.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110B15D968C80002EC7B /* contact.html */; };
+		58D6110E15D969040002EC7B /* patient-add.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110D15D969040002EC7B /* patient-add.html */; };
+		58D6111015D969230002EC7B /* doctor-add.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6110F15D969230002EC7B /* doctor-add.html */; };
+		58D6111215D969480002EC7B /* study-add.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111115D969480002EC7B /* study-add.html */; };
+		58D6111415D969700002EC7B /* scan-add.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111315D969700002EC7B /* scan-add.html */; };
+		58D6111615D969920002EC7B /* delete.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111515D969920002EC7B /* delete.html */; };
+		58D6111815D969B70002EC7B /* print-screen.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111715D969B70002EC7B /* print-screen.html */; };
+		58D6111A15D969E00002EC7B /* image-online.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111915D969E00002EC7B /* image-online.html */; };
+		58D6111C15D969FD0002EC7B /* movie-online.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111B15D969FC0002EC7B /* movie-online.html */; };
+		58D6111E15D96A280002EC7B /* reports-online.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111D15D96A280002EC7B /* reports-online.html */; };
+		58D6112015D96A540002EC7B /* patient-response.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6111F15D96A540002EC7B /* patient-response.html */; };
+		58D6112215D96A740002EC7B /* admin-server.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112115D96A740002EC7B /* admin-server.html */; };
+		58D6112415D96AA10002EC7B /* admin-users.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112315D96AA10002EC7B /* admin-users.html */; };
+		58D6112615D96AC20002EC7B /* admin-types.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112515D96AC20002EC7B /* admin-types.html */; };
+		58D6112815D96AED0002EC7B /* admin-backup.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112715D96AED0002EC7B /* admin-backup.html */; };
+		58D6112A15D96B160002EC7B /* recist-info.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112915D96B160002EC7B /* recist-info.html */; };
+		58D6112C15D96BEB0002EC7B /* adverse.html in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112B15D96BEA0002EC7B /* adverse.html */; };
+		58D6112E15D97A070002EC7B /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112D15D97A070002EC7B /* contact.png */; };
+		58D6113015D97AE00002EC7B /* doctor.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6112F15D97AE00002EC7B /* doctor.png */; };
+		58D6113215D97B9D0002EC7B /* study.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113115D97B9D0002EC7B /* study.png */; };
+		58D6113415D97C4B0002EC7B /* scans.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113315D97C4B0002EC7B /* scans.png */; };
+		58D6113615D97CD10002EC7B /* print.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113515D97CD10002EC7B /* print.png */; };
+		58D6113815D97DD70002EC7B /* movie.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113715D97DD60002EC7B /* movie.png */; };
+		58D6113A15D97EDF0002EC7B /* admin.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113915D97EDF0002EC7B /* admin.png */; };
+		58D6113C15D97FCF0002EC7B /* adverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113B15D97FCF0002EC7B /* adverse.png */; };
+		58D6113E15D981790002EC7B /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113D15D981790002EC7B /* edit.png */; };
+		58D6114015D9969E0002EC7B /* overview.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D6113F15D9969D0002EC7B /* overview.png */; };
+		58D7795615EFE64D0045791B /* add-study.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58D7795515EFE64D0045791B /* add-study.tiff */; };
+		58DA68981688BC82002B8892 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DA68971688BC82002B8892 /* Default-568h@2x.png */; };
+		58DBF80715A680C900B859F4 /* team-logo-health5757.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DBF80615A680C900B859F4 /* team-logo-health5757.png */; };
+		58DC96F81577C955006628C1 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DC96F71577C955006628C1 /* 112-group.png */; };
+		58DC96FB1577CA9C006628C1 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DC96FA1577CA9C006628C1 /* 96-book.png */; };
+		58DECB5E16936F9200D6ECF2 /* patientdetailgraph.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58DECB5D16936F9200D6ECF2 /* patientdetailgraph.tiff */; };
+		58DECB6016936FA000D6ECF2 /* patientgraph.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58DECB5F16936FA000D6ECF2 /* patientgraph.tiff */; };
+		58DECB6216936FBE00D6ECF2 /* studypie.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58DECB6116936FBE00D6ECF2 /* studypie.tiff */; };
+		58DECB661693734100D6ECF2 /* graph-online.html in Resources */ = {isa = PBXBuildFile; fileRef = 58DECB651693734100D6ECF2 /* graph-online.html */; };
+		58DEF2FF15937FFA00A9DF4B /* cooltext718877472.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DEF2FE15937FFA00A9DF4B /* cooltext718877472.png */; };
+		58DEF3011593807800A9DF4B /* cooltext718878760.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DEF3001593807800A9DF4B /* cooltext718878760.png */; };
+		58E1EB2A15B109CD00697447 /* teamrecist7272.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E1EB2915B109CD00697447 /* teamrecist7272.png */; };
+		58E25857162CBE6800B52EE0 /* TeamRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AF3EAF15AE1DB9005645EB /* TeamRules.m */; };
+		58E2585A162CBF8600B52EE0 /* TeamWebResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E25859162CBF8600B52EE0 /* TeamWebResponse.m */; };
+		58E330FA157AA11E0098E873 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E330F9157AA11E0098E873 /* 10-medical.png */; };
+		58E480161630838A0083EF8A /* team-schematic.png in Resources */ = {isa = PBXBuildFile; fileRef = 58E480151630838A0083EF8A /* team-schematic.png */; };
+		58E480181630875A0083EF8A /* patients-search.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58E48017163087590083EF8A /* patients-search.tiff */; };
+		58E4801A163095BC0083EF8A /* lesion-edit.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58E48019163095BC0083EF8A /* lesion-edit.tiff */; };
+		58E704881631C3C6006590D4 /* DoctorEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E704871631C3C6006590D4 /* DoctorEdit.m */; };
+		58E90AA51614B3AC00CEA625 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90AA41614B3AC00CEA625 /* CFNetwork.framework */; };
+		58E90AA71614B3F200CEA625 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90AA61614B3F200CEA625 /* MobileCoreServices.framework */; };
+		58E90AA91614B40300CEA625 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90AA81614B40300CEA625 /* Security.framework */; };
+		58E90AAB1614B41D00CEA625 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90AAA1614B41D00CEA625 /* SystemConfiguration.framework */; };
+		58E90AAD1614B44B00CEA625 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90AAC1614B44B00CEA625 /* libxml2.dylib */; };
+		58E90FC11614BF9900CEA625 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E90FB71614BF0000CEA625 /* libRestKit.a */; };
+		58E90FCF1614CA2E00CEA625 /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E90FC71614C7F100CEA625 /* Results.m */; };
+		58E90FD01614CA3800CEA625 /* SharedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E90FCD1614C8E900CEA625 /* SharedObject.m */; };
+		58E90FD11614CAAE00CEA625 /* LoginResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E90FC51614C7F100CEA625 /* LoginResults.m */; };
+		58E90FD21614CED900CEA625 /* StudyDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D1925F15768C1600424EC2 /* StudyDisplay.m */; };
+		58E90FD31614CEF800CEA625 /* DoctorDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E330FC157AA1A90098E873 /* DoctorDisplay.m */; };
+		58E90FD41614CF0700CEA625 /* PatientDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D192591576893700424EC2 /* PatientDisplay.m */; };
+		58EAC1DE16247CAA005C9A18 /* ViewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6A1E915811499001488BE /* ViewImage.m */; };
+		58EAC206162495A9005C9A18 /* ViewReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6A1ED1581310F001488BE /* ViewReport.m */; };
+		58EAC2071624A912005C9A18 /* ChooseImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C92AF415825973001E966B /* ChooseImages.m */; };
+		58EAC2081624B3D8005C9A18 /* CompareImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C92AF0158250A8001E966B /* CompareImages.m */; };
+		58EAC2091624BCB7005C9A18 /* StudyURLDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C9DA159A30B8006AC342 /* StudyURLDisplay.m */; };
+		58EAC20A1624C137005C9A18 /* MoviePlayerUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9415926F6F00BC297F /* MoviePlayerUserPrefs.m */; };
+		58EAC20B1624C137005C9A18 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9615926F6F00BC297F /* MyImageView.m */; };
+		58EAC20C1624C137005C9A18 /* MyLocalMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9815926F6F00BC297F /* MyLocalMovieViewController.m */; };
+		58EAC20D1624C137005C9A18 /* MyMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9A15926F6F00BC297F /* MyMovieViewController.m */; };
+		58EAC20E1624C137005C9A18 /* MyOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9C15926F6F00BC297F /* MyOverlayViewController.m */; };
+		58EAC20F1624C137005C9A18 /* MyStreamingMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CC8E9E15926F6F00BC297F /* MyStreamingMovieViewController.m */; };
+		58EDB88715E7E55000F7FB77 /* patient-data.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 58EDB88615E7E55000F7FB77 /* patient-data.tiff */; };
+		58FB77EC162330CA00289556 /* LesionEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C13059157FFC380085DC71 /* LesionEdit.m */; };
+		58FB77F11623602F00289556 /* LesionAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C13056157FCA8C0085DC71 /* LesionAdd.m */; };
+		58FD2CFC1592B3010044D38B /* cooltext718459296.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD2CFB1592B3010044D38B /* cooltext718459296.png */; };
+		58FD2CFE1592B6960044D38B /* cooltext718463598.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD2CFD1592B6960044D38B /* cooltext718463598.png */; };
+		58FE3F43161F79D700D3AD42 /* HTMLHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CF565B15D431B80043977D /* HTMLHelpView.m */; };
+		58FF47311618BBEA00A81BA2 /* PatientEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D1926215768C6000424EC2 /* PatientEdit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E90FB61614BF0000CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		58E90FB81614BF0000CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		58E90FBA1614BF0000CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		58E90FBC1614BF0000CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		58E90FBE1614BF0000CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		58E90FC21614BFEB00CEA625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5801A49E15FE4B23006204E2 /* team5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team5757.png; sourceTree = "<group>"; };
+		5801A4A115FE4C3B006204E2 /* team114114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team114114.png; sourceTree = "<group>"; };
+		5801A4A815FE4DB6006204E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5801A4AA15FE4E48006204E2 /* team7272.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team7272.png; sourceTree = "<group>"; };
+		5801A4AC15FE4EB5006204E2 /* team144144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team144144.png; sourceTree = "<group>"; };
+		5801A4AE15FE500D006204E2 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		5801A4B015FE511D006204E2 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		5801A4B215FE586C006204E2 /* teamlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamlogo.png; sourceTree = "<group>"; };
+		58090B9E15851D7700C0FB06 /* TeamCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCalculator.h; sourceTree = "<group>"; };
+		58090B9F15851D7700C0FB06 /* TeamCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCalculator.m; sourceTree = "<group>"; };
+		5818774416176459004EEBE5 /* StudyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyMap.h; sourceTree = "<group>"; };
+		5818774516176459004EEBE5 /* StudyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyMap.m; sourceTree = "<group>"; };
+		58187748161787C3004EEBE5 /* DocandStudyMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocandStudyMap.h; sourceTree = "<group>"; };
+		58187749161787C3004EEBE5 /* DocandStudyMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocandStudyMap.m; sourceTree = "<group>"; };
+		581EFA5315990237009165AC /* Doctor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Doctor.json; path = DemoData/Doctor.json; sourceTree = "<group>"; };
+		581EFA5E15993CFA009165AC /* RecistWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecistWebView.h; sourceTree = "<group>"; };
+		581EFA5F15993CFA009165AC /* RecistWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecistWebView.m; sourceTree = "<group>"; };
+		5821B4C416220E3400661EC2 /* ReportParamsMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportParamsMap.h; sourceTree = "<group>"; };
+		5821B4C516220E3400661EC2 /* ReportParamsMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportParamsMap.m; sourceTree = "<group>"; };
+		5821B4C7162216F900661EC2 /* LesionMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesionMap.h; sourceTree = "<group>"; };
+		5821B4C8162216F900661EC2 /* LesionMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesionMap.m; sourceTree = "<group>"; };
+		584F633F1634C18C008CA73F /* login1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login1.png; sourceTree = "<group>"; };
+		5851409915E70F26007FD59E /* response-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "response-thumb.png"; sourceTree = "<group>"; };
+		585A3BB115EC56970051DF31 /* recist-info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recist-info.png"; sourceTree = "<group>"; };
+		585D85BD168E4E5600532E62 /* StudyGraphDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyGraphDisplay.h; sourceTree = "<group>"; };
+		585D85BE168E4E5600532E62 /* StudyGraphDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyGraphDisplay.m; sourceTree = "<group>"; };
+		5862303816161055001200C0 /* PatientMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientMap.h; sourceTree = "<group>"; };
+		5862303916161055001200C0 /* PatientMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientMap.m; sourceTree = "<group>"; };
+		5862303B161645D9001200C0 /* DoctorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorMap.h; sourceTree = "<group>"; };
+		5862303C161645D9001200C0 /* DoctorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorMap.m; sourceTree = "<group>"; };
+		586511B0168FA23C00BC5F55 /* StudyPieDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyPieDisplay.h; sourceTree = "<group>"; };
+		586511B1168FA23C00BC5F55 /* StudyPieDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyPieDisplay.m; sourceTree = "<group>"; };
+		5870C411168CC31300C435B9 /* icon_graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_graph.png; sourceTree = "<group>"; };
+		5870C413168CC45300C435B9 /* TeamGraphResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamGraphResponse.h; sourceTree = "<group>"; };
+		5870C414168CC45300C435B9 /* TeamGraphResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamGraphResponse.m; sourceTree = "<group>"; };
+		587FE38015B2008E0017C725 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		587FE38215B200990017C725 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		587FE38415B202980017C725 /* teamrecist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamrecist.png; sourceTree = "<group>"; };
+		587FE38615B209A90017C725 /* teamtext2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamtext2.png; sourceTree = "<group>"; };
+		588B47C215AB839100FEA035 /* UsersGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersGuide.h; sourceTree = "<group>"; };
+		588B47C315AB839100FEA035 /* UsersGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersGuide.m; sourceTree = "<group>"; };
+		588D6578158BB5DD004C399D /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		58929EC6162B62420015D9A0 /* TeamResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamResponse.h; sourceTree = "<group>"; };
+		58929EC7162B62420015D9A0 /* TeamResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamResponse.m; sourceTree = "<group>"; };
+		58929EC9162B80030015D9A0 /* ResponseMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseMap.h; sourceTree = "<group>"; };
+		58929ECA162B80030015D9A0 /* ResponseMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseMap.m; sourceTree = "<group>"; };
+		589AF8B015D49077001C687F /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		589AF8B315D49088001C687F /* patients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patients.png; sourceTree = "<group>"; };
+		589AF8BA15D4A6D7001C687F /* login.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = login.html; sourceTree = "<group>"; };
+		58AF3EAC15ADFC80005645EB /* TEAM RECIST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "TEAM RECIST.entitlements"; sourceTree = "<group>"; };
+		58AF3EAE15AE1DB9005645EB /* TeamRules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamRules.h; sourceTree = "<group>"; };
+		58AF3EAF15AE1DB9005645EB /* TeamRules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamRules.m; sourceTree = "<group>"; };
+		58B539DE158A37440061B8F6 /* TeamLesions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamLesions.h; sourceTree = "<group>"; };
+		58B539DF158A37440061B8F6 /* TeamLesions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamLesions.m; sourceTree = "<group>"; };
+		58B88A701620A95B007C5830 /* ScanMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanMap.h; sourceTree = "<group>"; };
+		58B88A711620A95B007C5830 /* ScanMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanMap.m; sourceTree = "<group>"; };
+		58B8936515E003A100FE1957 /* scan-movie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "scan-movie.tiff"; sourceTree = "<group>"; };
+		58B8936815E0087000FE1957 /* scan-details-on.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "scan-details-on.tiff"; sourceTree = "<group>"; };
+		58B8936A15E00ADD00FE1957 /* study-doc.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "study-doc.tiff"; sourceTree = "<group>"; };
+		58B8936C15E00FF400FE1957 /* response.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = response.tiff; sourceTree = "<group>"; };
+		58B8936E15E014D800FE1957 /* details-report.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "details-report.tiff"; sourceTree = "<group>"; };
+		58C0762315E06CE100C834DE /* response-report.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "response-report.tiff"; sourceTree = "<group>"; };
+		58C1304E157FBA650085DC71 /* ScanEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanEdit.h; sourceTree = "<group>"; };
+		58C1304F157FBA650085DC71 /* ScanEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanEdit.m; sourceTree = "<group>"; };
+		58C13055157FCA8C0085DC71 /* LesionAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesionAdd.h; sourceTree = "<group>"; };
+		58C13056157FCA8C0085DC71 /* LesionAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesionAdd.m; sourceTree = "<group>"; };
+		58C13058157FFC380085DC71 /* LesionEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LesionEdit.h; sourceTree = "<group>"; };
+		58C13059157FFC380085DC71 /* LesionEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LesionEdit.m; sourceTree = "<group>"; };
+		58C1AD7E1594EED50066D148 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		58C1AD8115950E3E0066D148 /* humming5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = humming5757.png; path = ../humming5757.png; sourceTree = "<group>"; };
+		58C1CC72157D0F2E00E1D084 /* Scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scan.h; sourceTree = "<group>"; };
+		58C1CC73157D0F2E00E1D084 /* Scan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scan.m; sourceTree = "<group>"; };
+		58C1CC76157D105200E1D084 /* ScanDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDisplay.h; sourceTree = "<group>"; };
+		58C1CC77157D105200E1D084 /* ScanDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanDisplay.m; sourceTree = "<group>"; };
+		58C1CC79157D173B00E1D084 /* ScanAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanAdd.h; sourceTree = "<group>"; };
+		58C1CC7A157D173B00E1D084 /* ScanAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanAdd.m; sourceTree = "<group>"; };
+		58C1F4D0159789E3007D0096 /* UserAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAdd.h; sourceTree = "<group>"; };
+		58C1F4D1159789E3007D0096 /* UserAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAdd.m; sourceTree = "<group>"; };
+		58C1F5071597B8D8007D0096 /* bgblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgblue.png; sourceTree = "<group>"; };
+		58C263E815A4CA840034C1A3 /* teamtext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamtext.png; sourceTree = "<group>"; };
+		58C42381159E1EDD009268F9 /* button_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_0.png; sourceTree = "<group>"; };
+		58C42384159E1EF1009268F9 /* button_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_1.png; sourceTree = "<group>"; };
+		58C42386159E20AD009268F9 /* button_scan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_scan1.png; sourceTree = "<group>"; };
+		58C42387159E20AD009268F9 /* button_scan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_scan2.png; sourceTree = "<group>"; };
+		58C4238A159E2175009268F9 /* button_before0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_before0.png; sourceTree = "<group>"; };
+		58C4238B159E2175009268F9 /* button_before1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_before1.png; sourceTree = "<group>"; };
+		58C4238E159E4CA4009268F9 /* Scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scan.h; sourceTree = "<group>"; };
+		58C4238F159E4CA4009268F9 /* Scan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scan.m; sourceTree = "<group>"; };
+		58C4468B15DD5CED0083D351 /* new-patient.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "new-patient.tiff"; sourceTree = "<group>"; };
+		58C4468F15DD65650083D351 /* doctors.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = doctors.tiff; sourceTree = "<group>"; };
+		58C4469115DD666F0083D351 /* add-doctor.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "add-doctor.tiff"; sourceTree = "<group>"; };
+		58C4469315DD67680083D351 /* delete-doctor.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "delete-doctor.tiff"; sourceTree = "<group>"; };
+		58C4469515DD71AF0083D351 /* studies.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = studies.tiff; sourceTree = "<group>"; };
+		58C4469915DD7AD10083D351 /* scans.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = scans.tiff; sourceTree = "<group>"; };
+		58C4469B15DD7C160083D351 /* new-scan.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "new-scan.tiff"; sourceTree = "<group>"; };
+		58C4469D15DD7F1E0083D351 /* scan-details.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "scan-details.tiff"; sourceTree = "<group>"; };
+		58C446A115DD88B70083D351 /* scan-image.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "scan-image.tiff"; sourceTree = "<group>"; };
+		58C446A315DD89920083D351 /* add-lesion.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "add-lesion.tiff"; sourceTree = "<group>"; };
+		58C4A04B15D84B6D00E68D0A /* icon-recist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-recist.png"; sourceTree = "<group>"; };
+		58C4A05115D84F5100E68D0A /* icon-twodoctors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-twodoctors.png"; sourceTree = "<group>"; };
+		58C4A05515D8678400E68D0A /* icon-scans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-scans.png"; sourceTree = "<group>"; };
+		58C5BFBF1583AB490025D2DA /* 157-wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "157-wrench.png"; sourceTree = "<group>"; };
+		58C5BFC51583B1250025D2DA /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		58C5BFC61583B1250025D2DA /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		58C5BFC81583B1B70025D2DA /* SetSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetSettings.h; sourceTree = "<group>"; };
+		58C5BFC91583B1B70025D2DA /* SetSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetSettings.m; sourceTree = "<group>"; };
+		58C5BFCE1583DF9B0025D2DA /* RetrieveSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetrieveSettings.h; sourceTree = "<group>"; };
+		58C5BFCF1583DF9B0025D2DA /* RetrieveSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveSettings.m; sourceTree = "<group>"; };
+		58C6290815AA0286005C7BED /* team40200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = team40200.png; path = "../../Team-Demo-Data/team40200.png"; sourceTree = "<group>"; };
+		58C6290B15AA043F005C7BED /* team40200ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = team40200ipad.png; sourceTree = "<group>"; };
+		58C6290D15AA062B005C7BED /* TEAM_logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TEAM_logo2.jpg; sourceTree = "<group>"; };
+		58C6294915AA1499005C7BED /* questionmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark.png; sourceTree = "<group>"; };
+		58C6294B15AA15ED005C7BED /* questionmark3221.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = questionmark3221.png; sourceTree = "<group>"; };
+		58C6294D15AA168A005C7BED /* TeamHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamHelp.h; sourceTree = "<group>"; };
+		58C6294E15AA168A005C7BED /* TeamHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamHelp.m; sourceTree = "<group>"; };
+		58C6295015AA1A5A005C7BED /* 84-lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "84-lightbulb.png"; sourceTree = "<group>"; };
+		58C6295215AA2609005C7BED /* TeamOverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamOverview.h; sourceTree = "<group>"; };
+		58C6295315AA2609005C7BED /* TeamOverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamOverview.m; sourceTree = "<group>"; };
+		58C6A1E815811499001488BE /* ViewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImage.h; sourceTree = "<group>"; };
+		58C6A1E915811499001488BE /* ViewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImage.m; sourceTree = "<group>"; };
+		58C6A1EC1581310F001488BE /* ViewReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewReport.h; sourceTree = "<group>"; };
+		58C6A1ED1581310F001488BE /* ViewReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewReport.m; sourceTree = "<group>"; };
+		58C6C9CE159A1609006AC342 /* Patient.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Patient.json; sourceTree = "<group>"; };
+		58C6C9D1159A1829006AC342 /* Scan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Scan.json; sourceTree = "<group>"; };
+		58C6C9D3159A2190006AC342 /* Lesion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lesion.json; sourceTree = "<group>"; };
+		58C6C9D5159A2359006AC342 /* Studies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Studies.json; sourceTree = "<group>"; };
+		58C6C9D7159A256B006AC342 /* Settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Settings.json; sourceTree = "<group>"; };
+		58C6C9D9159A30B8006AC342 /* StudyURLDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyURLDisplay.h; sourceTree = "<group>"; };
+		58C6C9DA159A30B8006AC342 /* StudyURLDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyURLDisplay.m; sourceTree = "<group>"; };
+		58C6C9DF159A538D006AC342 /* scanner5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scanner5757.png; path = ../scanner5757.png; sourceTree = "<group>"; };
+		58C73A161596277E00E1E6BB /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		58C73A171596277E00E1E6BB /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		58C73A1E159667C600E1E6BB /* UserDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDisplay.h; sourceTree = "<group>"; };
+		58C73A1F159667C600E1E6BB /* UserDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDisplay.m; sourceTree = "<group>"; };
+		58C73A2115966BDF00E1E6BB /* UserEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEdit.h; sourceTree = "<group>"; };
+		58C73A2215966BDF00E1E6BB /* UserEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEdit.m; sourceTree = "<group>"; };
+		58C7F00015A789A100C0BE19 /* TEAM_logo7272.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TEAM_logo7272.png; sourceTree = "<group>"; };
+		58C92AEF158250A8001E966B /* CompareImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareImages.h; sourceTree = "<group>"; };
+		58C92AF0158250A8001E966B /* CompareImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareImages.m; sourceTree = "<group>"; };
+		58C92AF315825973001E966B /* ChooseImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseImages.h; sourceTree = "<group>"; };
+		58C92AF415825973001E966B /* ChooseImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseImages.m; sourceTree = "<group>"; };
+		58CA21A115C05909004B272D /* uicheckbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uicheckbox_unchecked.png; sourceTree = "<group>"; };
+		58CA21A215C05909004B272D /* uicheckbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uicheckbox_checked.png; sourceTree = "<group>"; };
+		58CA21A615C0592B004B272D /* UICheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICheckbox.h; sourceTree = "<group>"; };
+		58CA21A715C0592B004B272D /* UICheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICheckbox.m; sourceTree = "<group>"; };
+		58CA567615AF4E08007110A5 /* Lesion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesion.h; sourceTree = "<group>"; };
+		58CA567715AF4E08007110A5 /* Lesion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesion.m; sourceTree = "<group>"; };
+		58CA567A15AF7589007110A5 /* teamtext1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamtext1.png; sourceTree = "<group>"; };
+		58CBBB8D15E6B5CF0086A3DF /* choose-image.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "choose-image.tiff"; sourceTree = "<group>"; };
+		58CBBB8F15E6B5CF0086A3DF /* compare-images.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "compare-images.tiff"; sourceTree = "<group>"; };
+		58CC8E861592678F00BC297F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		58CC8E881592679C00BC297F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		58CC8E9315926F6F00BC297F /* MoviePlayerUserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerUserPrefs.h; sourceTree = "<group>"; };
+		58CC8E9415926F6F00BC297F /* MoviePlayerUserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerUserPrefs.m; sourceTree = "<group>"; };
+		58CC8E9515926F6F00BC297F /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		58CC8E9615926F6F00BC297F /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		58CC8E9715926F6F00BC297F /* MyLocalMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocalMovieViewController.h; sourceTree = "<group>"; };
+		58CC8E9815926F6F00BC297F /* MyLocalMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocalMovieViewController.m; sourceTree = "<group>"; };
+		58CC8E9915926F6F00BC297F /* MyMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMovieViewController.h; sourceTree = "<group>"; };
+		58CC8E9A15926F6F00BC297F /* MyMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieViewController.m; sourceTree = "<group>"; };
+		58CC8E9B15926F6F00BC297F /* MyOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOverlayViewController.h; sourceTree = "<group>"; };
+		58CC8E9C15926F6F00BC297F /* MyOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOverlayViewController.m; sourceTree = "<group>"; };
+		58CC8E9D15926F6F00BC297F /* MyStreamingMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStreamingMovieViewController.h; sourceTree = "<group>"; };
+		58CC8E9E15926F6F00BC297F /* MyStreamingMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStreamingMovieViewController.m; sourceTree = "<group>"; };
+		58CC8EA91592728700BC297F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		58CF565A15D431B80043977D /* HTMLHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLHelpView.h; sourceTree = "<group>"; };
+		58CF565B15D431B80043977D /* HTMLHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLHelpView.m; sourceTree = "<group>"; };
+		58CF566515D4511B0043977D /* overview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = overview.pdf; sourceTree = "<group>"; };
+		58CF566915D46CEB0043977D /* teamweb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = teamweb.html; sourceTree = "<group>"; };
+		58D1921D157676CE00424EC2 /* TEAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D19221157676CE00424EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58D19223157676CE00424EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58D19225157676CE00424EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58D19227157676CE00424EC2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58D1922B157676CE00424EC2 /* Team-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Team-Info.plist"; sourceTree = "<group>"; };
+		58D1922D157676CE00424EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58D1922F157676CE00424EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58D19231157676CE00424EC2 /* Team-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Team-Prefix.pch"; sourceTree = "<group>"; };
+		58D19232157676CE00424EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58D19233157676CE00424EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58D19236157676CE00424EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		58D19239157676CE00424EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		58D1923C157676CE00424EC2 /* Team.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Team.xcdatamodel; sourceTree = "<group>"; };
+		58D192541576839100424EC2 /* LogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogonViewController.h; sourceTree = "<group>"; };
+		58D192551576839100424EC2 /* LogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogonViewController.m; sourceTree = "<group>"; };
+		58D192581576893700424EC2 /* PatientDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDisplay.h; sourceTree = "<group>"; };
+		58D192591576893700424EC2 /* PatientDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDisplay.m; sourceTree = "<group>"; };
+		58D1925B1576899500424EC2 /* PatientAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientAdd.h; sourceTree = "<group>"; };
+		58D1925C1576899500424EC2 /* PatientAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientAdd.m; sourceTree = "<group>"; };
+		58D1925E15768C1600424EC2 /* StudyDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyDisplay.h; sourceTree = "<group>"; };
+		58D1925F15768C1600424EC2 /* StudyDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyDisplay.m; sourceTree = "<group>"; };
+		58D1926115768C6000424EC2 /* PatientEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientEdit.h; sourceTree = "<group>"; };
+		58D1926215768C6000424EC2 /* PatientEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientEdit.m; sourceTree = "<group>"; };
+		58D1926415768E7900424EC2 /* StudyAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyAdd.h; sourceTree = "<group>"; };
+		58D1926515768E7900424EC2 /* StudyAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyAdd.m; sourceTree = "<group>"; };
+		58D192731576C7C000424EC2 /* Studies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Studies.h; sourceTree = "<group>"; };
+		58D192741576C7C000424EC2 /* Studies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Studies.m; sourceTree = "<group>"; };
+		58D2A6E015A0E175007B029B /* TEAM_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TEAM_logo.jpg; sourceTree = "<group>"; };
+		58D2A6E315A0E710007B029B /* TEAM_logo5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TEAM_logo5757.png; path = ../TEAM_logo5757.png; sourceTree = "<group>"; };
+		58D4C81E15B34F700051D16A /* teamrecist5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamrecist5757.png; sourceTree = "<group>"; };
+		58D5458815E1685400BAEF37 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		58D5458915E1685400BAEF37 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		58D557A815AB6E09002252AD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		58D6110115D95BA90002EC7B /* icon-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-login.png"; sourceTree = "<group>"; };
+		58D6110315D95CAD0002EC7B /* icon-team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-team.png"; sourceTree = "<group>"; };
+		58D6110515D95D390002EC7B /* icon-patients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-patients.png"; sourceTree = "<group>"; };
+		58D6110715D960F10002EC7B /* icon-reports.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-reports.png"; sourceTree = "<group>"; };
+		58D6110915D967F60002EC7B /* overview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = overview.html; sourceTree = "<group>"; };
+		58D6110B15D968C80002EC7B /* contact.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = contact.html; sourceTree = "<group>"; };
+		58D6110D15D969040002EC7B /* patient-add.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "patient-add.html"; sourceTree = "<group>"; };
+		58D6110F15D969230002EC7B /* doctor-add.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "doctor-add.html"; sourceTree = "<group>"; };
+		58D6111115D969480002EC7B /* study-add.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "study-add.html"; sourceTree = "<group>"; };
+		58D6111315D969700002EC7B /* scan-add.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "scan-add.html"; sourceTree = "<group>"; };
+		58D6111515D969920002EC7B /* delete.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = delete.html; sourceTree = "<group>"; };
+		58D6111715D969B70002EC7B /* print-screen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "print-screen.html"; sourceTree = "<group>"; };
+		58D6111915D969E00002EC7B /* image-online.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "image-online.html"; sourceTree = "<group>"; };
+		58D6111B15D969FC0002EC7B /* movie-online.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "movie-online.html"; sourceTree = "<group>"; };
+		58D6111D15D96A280002EC7B /* reports-online.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "reports-online.html"; sourceTree = "<group>"; };
+		58D6111F15D96A540002EC7B /* patient-response.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "patient-response.html"; sourceTree = "<group>"; };
+		58D6112115D96A740002EC7B /* admin-server.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "admin-server.html"; sourceTree = "<group>"; };
+		58D6112315D96AA10002EC7B /* admin-users.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "admin-users.html"; sourceTree = "<group>"; };
+		58D6112515D96AC20002EC7B /* admin-types.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "admin-types.html"; sourceTree = "<group>"; };
+		58D6112715D96AED0002EC7B /* admin-backup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "admin-backup.html"; sourceTree = "<group>"; };
+		58D6112915D96B160002EC7B /* recist-info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "recist-info.html"; sourceTree = "<group>"; };
+		58D6112B15D96BEA0002EC7B /* adverse.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = adverse.html; sourceTree = "<group>"; };
+		58D6112D15D97A070002EC7B /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		58D6112F15D97AE00002EC7B /* doctor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctor.png; sourceTree = "<group>"; };
+		58D6113115D97B9D0002EC7B /* study.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = study.png; sourceTree = "<group>"; };
+		58D6113315D97C4B0002EC7B /* scans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scans.png; sourceTree = "<group>"; };
+		58D6113515D97CD10002EC7B /* print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = print.png; sourceTree = "<group>"; };
+		58D6113715D97DD60002EC7B /* movie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie.png; sourceTree = "<group>"; };
+		58D6113915D97EDF0002EC7B /* admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admin.png; sourceTree = "<group>"; };
+		58D6113B15D97FCF0002EC7B /* adverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adverse.png; sourceTree = "<group>"; };
+		58D6113D15D981790002EC7B /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		58D6113F15D9969D0002EC7B /* overview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview.png; sourceTree = "<group>"; };
+		58D7795515EFE64D0045791B /* add-study.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "add-study.tiff"; sourceTree = "<group>"; };
+		58DA68971688BC82002B8892 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58DBF80615A680C900B859F4 /* team-logo-health5757.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "team-logo-health5757.png"; sourceTree = "<group>"; };
+		58DC96F71577C955006628C1 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		58DC96FA1577CA9C006628C1 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		58DC96FC1577DE1F006628C1 /* StudyEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyEdit.h; sourceTree = "<group>"; };
+		58DC96FD1577DE1F006628C1 /* StudyEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyEdit.m; sourceTree = "<group>"; };
+		58DECB5D16936F9200D6ECF2 /* patientdetailgraph.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = patientdetailgraph.tiff; sourceTree = "<group>"; };
+		58DECB5F16936FA000D6ECF2 /* patientgraph.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = patientgraph.tiff; sourceTree = "<group>"; };
+		58DECB6116936FBE00D6ECF2 /* studypie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = studypie.tiff; sourceTree = "<group>"; };
+		58DECB651693734100D6ECF2 /* graph-online.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "graph-online.html"; sourceTree = "<group>"; };
+		58DEF2F01593753400A9DF4B /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		58DEF2F11593753400A9DF4B /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		58DEF2F4159375AD00A9DF4B /* Lesion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesion.h; sourceTree = "<group>"; };
+		58DEF2F5159375AD00A9DF4B /* Lesion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesion.m; sourceTree = "<group>"; };
+		58DEF2FE15937FFA00A9DF4B /* cooltext718877472.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext718877472.png; sourceTree = "<group>"; };
+		58DEF3001593807800A9DF4B /* cooltext718878760.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext718878760.png; sourceTree = "<group>"; };
+		58E1EB2915B109CD00697447 /* teamrecist7272.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teamrecist7272.png; sourceTree = "<group>"; };
+		58E25858162CBF8600B52EE0 /* TeamWebResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamWebResponse.h; sourceTree = "<group>"; };
+		58E25859162CBF8600B52EE0 /* TeamWebResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamWebResponse.m; sourceTree = "<group>"; };
+		58E330F5157A8D7E0098E873 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		58E330F6157A8D7E0098E873 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		58E330F9157AA11E0098E873 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		58E330FB157AA1A90098E873 /* DoctorDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorDisplay.h; sourceTree = "<group>"; };
+		58E330FC157AA1A90098E873 /* DoctorDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorDisplay.m; sourceTree = "<group>"; };
+		58E330FE157AAB360098E873 /* DoctorAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorAdd.h; sourceTree = "<group>"; };
+		58E330FF157AAB360098E873 /* DoctorAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorAdd.m; sourceTree = "<group>"; };
+		58E480151630838A0083EF8A /* team-schematic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "team-schematic.png"; sourceTree = "<group>"; };
+		58E48017163087590083EF8A /* patients-search.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "patients-search.tiff"; sourceTree = "<group>"; };
+		58E48019163095BC0083EF8A /* lesion-edit.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "lesion-edit.tiff"; sourceTree = "<group>"; };
+		58E4FD4116332A29009717BB /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		58E4FD4216332A29009717BB /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		58E704861631C3C6006590D4 /* DoctorEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorEdit.h; sourceTree = "<group>"; };
+		58E704871631C3C6006590D4 /* DoctorEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorEdit.m; sourceTree = "<group>"; };
+		58E90AA41614B3AC00CEA625 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		58E90AA61614B3F200CEA625 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		58E90AA81614B40300CEA625 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		58E90AAA1614B41D00CEA625 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		58E90AAC1614B44B00CEA625 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Team/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		58E90FC41614C7F100CEA625 /* LoginResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginResults.h; path = ../LoginResults.h; sourceTree = "<group>"; };
+		58E90FC51614C7F100CEA625 /* LoginResults.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginResults.m; path = ../LoginResults.m; sourceTree = "<group>"; };
+		58E90FC61614C7F100CEA625 /* Results.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Results.h; path = ../Results.h; sourceTree = "<group>"; };
+		58E90FC71614C7F100CEA625 /* Results.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = ../Results.m; sourceTree = "<group>"; };
+		58E90FC81614C7F100CEA625 /* SettingsMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsMap.h; path = ../SettingsMap.h; sourceTree = "<group>"; };
+		58E90FC91614C7F100CEA625 /* SettingsMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SettingsMap.m; path = ../SettingsMap.m; sourceTree = "<group>"; };
+		58E90FCA1614C7F100CEA625 /* UsersMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UsersMapping.h; path = ../UsersMapping.h; sourceTree = "<group>"; };
+		58E90FCB1614C7F100CEA625 /* UsersMapping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UsersMapping.m; path = ../UsersMapping.m; sourceTree = "<group>"; };
+		58E90FCC1614C8E900CEA625 /* SharedObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedObject.h; sourceTree = "<group>"; };
+		58E90FCD1614C8E900CEA625 /* SharedObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedObject.m; sourceTree = "<group>"; };
+		58EDB88615E7E55000F7FB77 /* patient-data.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "patient-data.tiff"; sourceTree = "<group>"; };
+		58EE5FAA15D5805400E9AC53 /* ViewAndPrintDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAndPrintDetails.h; sourceTree = "<group>"; };
+		58EE5FAB15D5805400E9AC53 /* ViewAndPrintDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAndPrintDetails.m; sourceTree = "<group>"; };
+		58FD2CFB1592B3010044D38B /* cooltext718459296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext718459296.png; sourceTree = "<group>"; };
+		58FD2CFD1592B6960044D38B /* cooltext718463598.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooltext718463598.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D1921A157676CE00424EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E90FC11614BF9900CEA625 /* libRestKit.a in Frameworks */,
+				58E90AAD1614B44B00CEA625 /* libxml2.dylib in Frameworks */,
+				58CC8E891592679C00BC297F /* QuartzCore.framework in Frameworks */,
+				58E90AAB1614B41D00CEA625 /* SystemConfiguration.framework in Frameworks */,
+				58E90AA91614B40300CEA625 /* Security.framework in Frameworks */,
+				58E90AA71614B3F200CEA625 /* MobileCoreServices.framework in Frameworks */,
+				58D19228157676CE00424EC2 /* CoreData.framework in Frameworks */,
+				58E90AA51614B3AC00CEA625 /* CFNetwork.framework in Frameworks */,
+				58D557A915AB6E09002252AD /* MessageUI.framework in Frameworks */,
+				58CC8E871592678F00BC297F /* MediaPlayer.framework in Frameworks */,
+				58D19222157676CE00424EC2 /* UIKit.framework in Frameworks */,
+				58D19224157676CE00424EC2 /* Foundation.framework in Frameworks */,
+				58D19226157676CE00424EC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5862303716160F7B001200C0 /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				58E90FCA1614C7F100CEA625 /* UsersMapping.h */,
+				58E90FC61614C7F100CEA625 /* Results.h */,
+				58E90FC81614C7F100CEA625 /* SettingsMap.h */,
+				58E90FC91614C7F100CEA625 /* SettingsMap.m */,
+				58E90FC71614C7F100CEA625 /* Results.m */,
+				58E90FC41614C7F100CEA625 /* LoginResults.h */,
+				58E90FC51614C7F100CEA625 /* LoginResults.m */,
+				5821B4C416220E3400661EC2 /* ReportParamsMap.h */,
+				5821B4C516220E3400661EC2 /* ReportParamsMap.m */,
+				58E90FCB1614C7F100CEA625 /* UsersMapping.m */,
+				58929EC9162B80030015D9A0 /* ResponseMap.h */,
+				58929ECA162B80030015D9A0 /* ResponseMap.m */,
+				5862303816161055001200C0 /* PatientMap.h */,
+				5862303916161055001200C0 /* PatientMap.m */,
+				5862303B161645D9001200C0 /* DoctorMap.h */,
+				5862303C161645D9001200C0 /* DoctorMap.m */,
+				5818774416176459004EEBE5 /* StudyMap.h */,
+				5818774516176459004EEBE5 /* StudyMap.m */,
+				58187748161787C3004EEBE5 /* DocandStudyMap.h */,
+				58187749161787C3004EEBE5 /* DocandStudyMap.m */,
+				58B88A701620A95B007C5830 /* ScanMap.h */,
+				58B88A711620A95B007C5830 /* ScanMap.m */,
+				5821B4C7162216F900661EC2 /* LesionMap.h */,
+				5821B4C8162216F900661EC2 /* LesionMap.m */,
+			);
+			name = Mappings;
+			sourceTree = "<group>";
+		};
+		588B47C015AB7B1100FEA035 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				58C6295215AA2609005C7BED /* TeamOverview.h */,
+				58C6295315AA2609005C7BED /* TeamOverview.m */,
+				58C6294D15AA168A005C7BED /* TeamHelp.h */,
+				58C6294E15AA168A005C7BED /* TeamHelp.m */,
+				588B47C215AB839100FEA035 /* UsersGuide.h */,
+				588B47C315AB839100FEA035 /* UsersGuide.m */,
+				58CF565A15D431B80043977D /* HTMLHelpView.h */,
+				58CF565B15D431B80043977D /* HTMLHelpView.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		58C6C9DC159A4023006AC342 /* DemoData */ = {
+			isa = PBXGroup;
+			children = (
+				581EFA5315990237009165AC /* Doctor.json */,
+				58C6C9CE159A1609006AC342 /* Patient.json */,
+				58C6C9D1159A1829006AC342 /* Scan.json */,
+				58C6C9D3159A2190006AC342 /* Lesion.json */,
+				58C6C9D5159A2359006AC342 /* Studies.json */,
+				58C6C9D7159A256B006AC342 /* Settings.json */,
+			);
+			name = DemoData;
+			sourceTree = "<group>";
+		};
+		58C6C9DD159A4092006AC342 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				58C1F4D0159789E3007D0096 /* UserAdd.h */,
+				58C1F4D1159789E3007D0096 /* UserAdd.m */,
+				58C73A1E159667C600E1E6BB /* UserDisplay.h */,
+				58C73A1F159667C600E1E6BB /* UserDisplay.m */,
+				58C73A2115966BDF00E1E6BB /* UserEdit.h */,
+				58C73A2215966BDF00E1E6BB /* UserEdit.m */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		58C6C9DE159A40D0006AC342 /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				581EFA5E15993CFA009165AC /* RecistWebView.h */,
+				581EFA5F15993CFA009165AC /* RecistWebView.m */,
+				58090B9E15851D7700C0FB06 /* TeamCalculator.h */,
+				58090B9F15851D7700C0FB06 /* TeamCalculator.m */,
+				58B539DE158A37440061B8F6 /* TeamLesions.h */,
+				58929EC6162B62420015D9A0 /* TeamResponse.h */,
+				58929EC7162B62420015D9A0 /* TeamResponse.m */,
+				58EE5FAA15D5805400E9AC53 /* ViewAndPrintDetails.h */,
+				58EE5FAB15D5805400E9AC53 /* ViewAndPrintDetails.m */,
+				58E25858162CBF8600B52EE0 /* TeamWebResponse.h */,
+				58E25859162CBF8600B52EE0 /* TeamWebResponse.m */,
+				58AF3EAE15AE1DB9005645EB /* TeamRules.h */,
+				58AF3EAF15AE1DB9005645EB /* TeamRules.m */,
+				58B539DF158A37440061B8F6 /* TeamLesions.m */,
+				5870C413168CC45300C435B9 /* TeamGraphResponse.h */,
+				5870C414168CC45300C435B9 /* TeamGraphResponse.m */,
+			);
+			name = Calculations;
+			sourceTree = "<group>";
+		};
+		58CC8EAB1592735A00BC297F /* VideoController */ = {
+			isa = PBXGroup;
+			children = (
+				58CC8E9315926F6F00BC297F /* MoviePlayerUserPrefs.h */,
+				58CC8E9415926F6F00BC297F /* MoviePlayerUserPrefs.m */,
+				58CC8E9515926F6F00BC297F /* MyImageView.h */,
+				58CC8E9615926F6F00BC297F /* MyImageView.m */,
+				58CC8E9715926F6F00BC297F /* MyLocalMovieViewController.h */,
+				58CC8E9815926F6F00BC297F /* MyLocalMovieViewController.m */,
+				58CC8E9915926F6F00BC297F /* MyMovieViewController.h */,
+				58CC8E9A15926F6F00BC297F /* MyMovieViewController.m */,
+				58CC8E9B15926F6F00BC297F /* MyOverlayViewController.h */,
+				58CC8E9C15926F6F00BC297F /* MyOverlayViewController.m */,
+				58CC8E9D15926F6F00BC297F /* MyStreamingMovieViewController.h */,
+				58CC8E9E15926F6F00BC297F /* MyStreamingMovieViewController.m */,
+			);
+			name = VideoController;
+			sourceTree = "<group>";
+		};
+		58CF565E15D431D50043977D /* HelpFiles */ = {
+			isa = PBXGroup;
+			children = (
+				58C4469115DD666F0083D351 /* add-doctor.tiff */,
+				58C446A315DD89920083D351 /* add-lesion.tiff */,
+				58DECB5D16936F9200D6ECF2 /* patientdetailgraph.tiff */,
+				58D6112715D96AED0002EC7B /* admin-backup.html */,
+				58DECB6116936FBE00D6ECF2 /* studypie.tiff */,
+				58D6112115D96A740002EC7B /* admin-server.html */,
+				58D6112515D96AC20002EC7B /* admin-types.html */,
+				58D6112315D96AA10002EC7B /* admin-users.html */,
+				58DECB5F16936FA000D6ECF2 /* patientgraph.tiff */,
+				58D6113915D97EDF0002EC7B /* admin.png */,
+				58D7795515EFE64D0045791B /* add-study.tiff */,
+				58D6112B15D96BEA0002EC7B /* adverse.html */,
+				58D6113B15D97FCF0002EC7B /* adverse.png */,
+				584F633F1634C18C008CA73F /* login1.png */,
+				58CBBB8D15E6B5CF0086A3DF /* choose-image.tiff */,
+				58CBBB8F15E6B5CF0086A3DF /* compare-images.tiff */,
+				58D6110B15D968C80002EC7B /* contact.html */,
+				58D6112D15D97A070002EC7B /* contact.png */,
+				58C4469315DD67680083D351 /* delete-doctor.tiff */,
+				58D6111515D969920002EC7B /* delete.html */,
+				58B8936E15E014D800FE1957 /* details-report.tiff */,
+				58D6110F15D969230002EC7B /* doctor-add.html */,
+				58D6112F15D97AE00002EC7B /* doctor.png */,
+				58C4468F15DD65650083D351 /* doctors.tiff */,
+				58D6113D15D981790002EC7B /* edit.png */,
+				58D6110115D95BA90002EC7B /* icon-login.png */,
+				58E48017163087590083EF8A /* patients-search.tiff */,
+				58D6110515D95D390002EC7B /* icon-patients.png */,
+				58D6110715D960F10002EC7B /* icon-reports.png */,
+				58D6110315D95CAD0002EC7B /* icon-team.png */,
+				58D6111915D969E00002EC7B /* image-online.html */,
+				589AF8BA15D4A6D7001C687F /* login.html */,
+				589AF8B015D49077001C687F /* login.png */,
+				58E48019163095BC0083EF8A /* lesion-edit.tiff */,
+				58D6111B15D969FC0002EC7B /* movie-online.html */,
+				58D6113715D97DD60002EC7B /* movie.png */,
+				58C4468B15DD5CED0083D351 /* new-patient.tiff */,
+				58C4469B15DD7C160083D351 /* new-scan.tiff */,
+				58E480151630838A0083EF8A /* team-schematic.png */,
+				58D6110915D967F60002EC7B /* overview.html */,
+				58CF566515D4511B0043977D /* overview.pdf */,
+				58D6113F15D9969D0002EC7B /* overview.png */,
+				58D6110D15D969040002EC7B /* patient-add.html */,
+				58EDB88615E7E55000F7FB77 /* patient-data.tiff */,
+				58D6111F15D96A540002EC7B /* patient-response.html */,
+				589AF8B315D49088001C687F /* patients.png */,
+				58D6111715D969B70002EC7B /* print-screen.html */,
+				58D6113515D97CD10002EC7B /* print.png */,
+				58D6112915D96B160002EC7B /* recist-info.html */,
+				58D6111D15D96A280002EC7B /* reports-online.html */,
+				58C0762315E06CE100C834DE /* response-report.tiff */,
+				58B8936C15E00FF400FE1957 /* response.tiff */,
+				58D6111315D969700002EC7B /* scan-add.html */,
+				58B8936815E0087000FE1957 /* scan-details-on.tiff */,
+				58C4469D15DD7F1E0083D351 /* scan-details.tiff */,
+				58C446A115DD88B70083D351 /* scan-image.tiff */,
+				58B8936515E003A100FE1957 /* scan-movie.tiff */,
+				58D6113315D97C4B0002EC7B /* scans.png */,
+				58C4469915DD7AD10083D351 /* scans.tiff */,
+				58C4469515DD71AF0083D351 /* studies.tiff */,
+				58D6111115D969480002EC7B /* study-add.html */,
+				58B8936A15E00ADD00FE1957 /* study-doc.tiff */,
+				58D6113115D97B9D0002EC7B /* study.png */,
+				58CF566915D46CEB0043977D /* teamweb.html */,
+				58DECB651693734100D6ECF2 /* graph-online.html */,
+			);
+			name = HelpFiles;
+			sourceTree = "<group>";
+		};
+		58D19212157676CE00424EC2 = {
+			isa = PBXGroup;
+			children = (
+				58DA68971688BC82002B8892 /* Default-568h@2x.png */,
+				58E90AA41614B3AC00CEA625 /* CFNetwork.framework */,
+				5801A4B015FE511D006204E2 /* Default-Landscape@2x~ipad.png */,
+				587FE38215B200990017C725 /* Default-Landscape~ipad.png */,
+				5801A4AE15FE500D006204E2 /* Default-Portrait@2x~ipad.png */,
+				587FE38015B2008E0017C725 /* Default-Portrait~ipad.png */,
+				5801A4A815FE4DB6006204E2 /* Default@2x.png */,
+				58D19220157676CE00424EC2 /* Frameworks */,
+				58E90AAC1614B44B00CEA625 /* libxml2.dylib */,
+				58D557A815AB6E09002252AD /* MessageUI.framework */,
+				58E90AA61614B3F200CEA625 /* MobileCoreServices.framework */,
+				58D1921E157676CE00424EC2 /* Products */,
+				58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */,
+				58E90AA81614B40300CEA625 /* Security.framework */,
+				58E90FCC1614C8E900CEA625 /* SharedObject.h */,
+				58E90FCD1614C8E900CEA625 /* SharedObject.m */,
+				58E90AAA1614B41D00CEA625 /* SystemConfiguration.framework */,
+				58D19229157676CE00424EC2 /* Team */,
+				58AF3EAC15ADFC80005645EB /* TEAM RECIST.entitlements */,
+				58DBF80615A680C900B859F4 /* team-logo-health5757.png */,
+				5801A4A115FE4C3B006204E2 /* team114114.png */,
+				5801A4AC15FE4EB5006204E2 /* team144144.png */,
+				5801A49E15FE4B23006204E2 /* team5757.png */,
+				5801A4AA15FE4E48006204E2 /* team7272.png */,
+				58C7F00015A789A100C0BE19 /* TEAM_logo7272.png */,
+				5801A4B215FE586C006204E2 /* teamlogo.png */,
+				58D4C81E15B34F700051D16A /* teamrecist5757.png */,
+				58E1EB2915B109CD00697447 /* teamrecist7272.png */,
+			);
+			sourceTree = "<group>";
+		};
+		58D1921E157676CE00424EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D1921D157676CE00424EC2 /* TEAM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D19220157676CE00424EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CC8E881592679C00BC297F /* QuartzCore.framework */,
+				58CC8E861592678F00BC297F /* MediaPlayer.framework */,
+				58D19221157676CE00424EC2 /* UIKit.framework */,
+				58D19223157676CE00424EC2 /* Foundation.framework */,
+				58D19225157676CE00424EC2 /* CoreGraphics.framework */,
+				58D19227157676CE00424EC2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58D19229157676CE00424EC2 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				58D19232157676CE00424EC2 /* AppDelegate.h */,
+				58D19233157676CE00424EC2 /* AppDelegate.m */,
+				58C6C9DE159A40D0006AC342 /* Calculations */,
+				58DEF2F7159375EA00A9DF4B /* CoreDataHeaders */,
+				58C6C9DC159A4023006AC342 /* DemoData */,
+				58DEF2F81593793C00A9DF4B /* DoctorsAndStudies */,
+				588B47C015AB7B1100FEA035 /* Help */,
+				58CF565E15D431D50043977D /* HelpFiles */,
+				58DEF2FC15937B3700A9DF4B /* ImagesAndReports */,
+				58DEF2FD15937BC700A9DF4B /* Lesions */,
+				58DEF2F9159379A600A9DF4B /* LoginAndSettings */,
+				58D19238157676CE00424EC2 /* MainStoryboard_iPad.storyboard */,
+				58D19235157676CE00424EC2 /* MainStoryboard_iPhone.storyboard */,
+				5862303716160F7B001200C0 /* Mappings */,
+				58DEF2FA15937A5D00A9DF4B /* Patients */,
+				58DEF2FB15937AF700A9DF4B /* Scans */,
+				58CC8EA91592728700BC297F /* Settings.bundle */,
+				58D5458815E1685400BAEF37 /* Settings.h */,
+				58D5458915E1685400BAEF37 /* Settings.m */,
+				58D1922A157676CE00424EC2 /* Supporting Files */,
+				58D1923B157676CE00424EC2 /* Team.xcdatamodeld */,
+				58C6C9DD159A4092006AC342 /* Users */,
+				58CC8EAB1592735A00BC297F /* VideoController */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		58D1922A157676CE00424EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E330F9157AA11E0098E873 /* 10-medical.png */,
+				58DC96F71577C955006628C1 /* 112-group.png */,
+				58C5BFBF1583AB490025D2DA /* 157-wrench.png */,
+				5870C411168CC31300C435B9 /* icon_graph.png */,
+				58C6295015AA1A5A005C7BED /* 84-lightbulb.png */,
+				58DC96FA1577CA9C006628C1 /* 96-book.png */,
+				58C1F5071597B8D8007D0096 /* bgblue.png */,
+				5851409915E70F26007FD59E /* response-thumb.png */,
+				58C42381159E1EDD009268F9 /* button_0.png */,
+				58C42384159E1EF1009268F9 /* button_1.png */,
+				58C4238A159E2175009268F9 /* button_before0.png */,
+				58C4238B159E2175009268F9 /* button_before1.png */,
+				58C42386159E20AD009268F9 /* button_scan1.png */,
+				58C42387159E20AD009268F9 /* button_scan2.png */,
+				58FD2CFB1592B3010044D38B /* cooltext718459296.png */,
+				58FD2CFD1592B6960044D38B /* cooltext718463598.png */,
+				58DEF2FE15937FFA00A9DF4B /* cooltext718877472.png */,
+				58DEF3001593807800A9DF4B /* cooltext718878760.png */,
+				58C1AD7E1594EED50066D148 /* Default.png */,
+				588D6578158BB5DD004C399D /* happy.png */,
+				58C1AD8115950E3E0066D148 /* humming5757.png */,
+				585A3BB115EC56970051DF31 /* recist-info.png */,
+				58C4A04B15D84B6D00E68D0A /* icon-recist.png */,
+				58C4A05515D8678400E68D0A /* icon-scans.png */,
+				58C4A05115D84F5100E68D0A /* icon-twodoctors.png */,
+				58D1922C157676CE00424EC2 /* InfoPlist.strings */,
+				58D1922F157676CE00424EC2 /* main.m */,
+				58C6294915AA1499005C7BED /* questionmark.png */,
+				58C6294B15AA15ED005C7BED /* questionmark3221.png */,
+				58C6C9DF159A538D006AC342 /* scanner5757.png */,
+				58D1922B157676CE00424EC2 /* Team-Info.plist */,
+				58D19231157676CE00424EC2 /* Team-Prefix.pch */,
+				58C6290815AA0286005C7BED /* team40200.png */,
+				58C6290B15AA043F005C7BED /* team40200ipad.png */,
+				58D2A6E015A0E175007B029B /* TEAM_logo.jpg */,
+				58C6290D15AA062B005C7BED /* TEAM_logo2.jpg */,
+				58D2A6E315A0E710007B029B /* TEAM_logo5757.png */,
+				587FE38415B202980017C725 /* teamrecist.png */,
+				58C263E815A4CA840034C1A3 /* teamtext.png */,
+				58CA567A15AF7589007110A5 /* teamtext1.png */,
+				587FE38615B209A90017C725 /* teamtext2.png */,
+				58CA21A215C05909004B272D /* uicheckbox_checked.png */,
+				58CA21A115C05909004B272D /* uicheckbox_unchecked.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58DEF2F7159375EA00A9DF4B /* CoreDataHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				58CA567615AF4E08007110A5 /* Lesion.h */,
+				58CA567715AF4E08007110A5 /* Lesion.m */,
+				58C4238E159E4CA4009268F9 /* Scan.h */,
+				58C4238F159E4CA4009268F9 /* Scan.m */,
+				58E330F5157A8D7E0098E873 /* Doctor.h */,
+				58E330F6157A8D7E0098E873 /* Doctor.m */,
+				58DEF2F4159375AD00A9DF4B /* Lesion.h */,
+				58DEF2F5159375AD00A9DF4B /* Lesion.m */,
+				58DEF2F01593753400A9DF4B /* Patient.h */,
+				58DEF2F11593753400A9DF4B /* Patient.m */,
+				58C1CC72157D0F2E00E1D084 /* Scan.h */,
+				58C1CC73157D0F2E00E1D084 /* Scan.m */,
+				58C5BFC51583B1250025D2DA /* Settings.h */,
+				58C5BFC61583B1250025D2DA /* Settings.m */,
+				58D192731576C7C000424EC2 /* Studies.h */,
+				58D192741576C7C000424EC2 /* Studies.m */,
+				58C73A161596277E00E1E6BB /* Users.h */,
+				58C73A171596277E00E1E6BB /* Users.m */,
+			);
+			name = CoreDataHeaders;
+			sourceTree = "<group>";
+		};
+		58DEF2F81593793C00A9DF4B /* DoctorsAndStudies */ = {
+			isa = PBXGroup;
+			children = (
+				58E330FE157AAB360098E873 /* DoctorAdd.h */,
+				58E330FF157AAB360098E873 /* DoctorAdd.m */,
+				58E330FB157AA1A90098E873 /* DoctorDisplay.h */,
+				58E330FC157AA1A90098E873 /* DoctorDisplay.m */,
+				58E704861631C3C6006590D4 /* DoctorEdit.h */,
+				58E704871631C3C6006590D4 /* DoctorEdit.m */,
+				58D1926415768E7900424EC2 /* StudyAdd.h */,
+				58D1926515768E7900424EC2 /* StudyAdd.m */,
+				58D1925E15768C1600424EC2 /* StudyDisplay.h */,
+				58D1925F15768C1600424EC2 /* StudyDisplay.m */,
+				58DC96FC1577DE1F006628C1 /* StudyEdit.h */,
+				58DC96FD1577DE1F006628C1 /* StudyEdit.m */,
+				58C6C9D9159A30B8006AC342 /* StudyURLDisplay.h */,
+				58C6C9DA159A30B8006AC342 /* StudyURLDisplay.m */,
+				585D85BD168E4E5600532E62 /* StudyGraphDisplay.h */,
+				585D85BE168E4E5600532E62 /* StudyGraphDisplay.m */,
+				586511B0168FA23C00BC5F55 /* StudyPieDisplay.h */,
+				586511B1168FA23C00BC5F55 /* StudyPieDisplay.m */,
+			);
+			name = DoctorsAndStudies;
+			sourceTree = "<group>";
+		};
+		58DEF2F9159379A600A9DF4B /* LoginAndSettings */ = {
+			isa = PBXGroup;
+			children = (
+				58D192541576839100424EC2 /* LogonViewController.h */,
+				58D192551576839100424EC2 /* LogonViewController.m */,
+				58C5BFCE1583DF9B0025D2DA /* RetrieveSettings.h */,
+				58C5BFCF1583DF9B0025D2DA /* RetrieveSettings.m */,
+				58C5BFC81583B1B70025D2DA /* SetSettings.h */,
+				58E4FD4116332A29009717BB /* Reachability.h */,
+				58E4FD4216332A29009717BB /* Reachability.m */,
+				58C5BFC91583B1B70025D2DA /* SetSettings.m */,
+				58CA21A615C0592B004B272D /* UICheckbox.h */,
+				58CA21A715C0592B004B272D /* UICheckbox.m */,
+			);
+			name = LoginAndSettings;
+			sourceTree = "<group>";
+		};
+		58DEF2FA15937A5D00A9DF4B /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				58D1925B1576899500424EC2 /* PatientAdd.h */,
+				58D1925C1576899500424EC2 /* PatientAdd.m */,
+				58D192581576893700424EC2 /* PatientDisplay.h */,
+				58D192591576893700424EC2 /* PatientDisplay.m */,
+				58D1926115768C6000424EC2 /* PatientEdit.h */,
+				58D1926215768C6000424EC2 /* PatientEdit.m */,
+			);
+			name = Patients;
+			sourceTree = "<group>";
+		};
+		58DEF2FB15937AF700A9DF4B /* Scans */ = {
+			isa = PBXGroup;
+			children = (
+				58C1CC79157D173B00E1D084 /* ScanAdd.h */,
+				58C1CC7A157D173B00E1D084 /* ScanAdd.m */,
+				58C1CC76157D105200E1D084 /* ScanDisplay.h */,
+				58C1CC77157D105200E1D084 /* ScanDisplay.m */,
+				58C1304E157FBA650085DC71 /* ScanEdit.h */,
+				58C1304F157FBA650085DC71 /* ScanEdit.m */,
+			);
+			name = Scans;
+			sourceTree = "<group>";
+		};
+		58DEF2FC15937B3700A9DF4B /* ImagesAndReports */ = {
+			isa = PBXGroup;
+			children = (
+				58C92AF315825973001E966B /* ChooseImages.h */,
+				58C92AF415825973001E966B /* ChooseImages.m */,
+				58C92AEF158250A8001E966B /* CompareImages.h */,
+				58C92AF0158250A8001E966B /* CompareImages.m */,
+				58C6A1E815811499001488BE /* ViewImage.h */,
+				58C6A1E915811499001488BE /* ViewImage.m */,
+				58C6A1EC1581310F001488BE /* ViewReport.h */,
+				58C6A1ED1581310F001488BE /* ViewReport.m */,
+			);
+			name = ImagesAndReports;
+			sourceTree = "<group>";
+		};
+		58DEF2FD15937BC700A9DF4B /* Lesions */ = {
+			isa = PBXGroup;
+			children = (
+				58C13055157FCA8C0085DC71 /* LesionAdd.h */,
+				58C13056157FCA8C0085DC71 /* LesionAdd.m */,
+				58C13058157FFC380085DC71 /* LesionEdit.h */,
+				58C13059157FFC380085DC71 /* LesionEdit.m */,
+			);
+			name = Lesions;
+			sourceTree = "<group>";
+		};
+		58E90FAC1614BF0000CEA625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E90FB71614BF0000CEA625 /* libRestKit.a */,
+				58E90FB91614BF0000CEA625 /* RestKitTests.octest */,
+				58E90FBB1614BF0000CEA625 /* RestKit.framework */,
+				58E90FBD1614BF0000CEA625 /* RestKitFrameworkTests.octest */,
+				58E90FBF1614BF0000CEA625 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D1921C157676CE00424EC2 /* TEAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D19246157676CE00424EC2 /* Build configuration list for PBXNativeTarget "TEAM" */;
+			buildPhases = (
+				58D19219157676CE00424EC2 /* Sources */,
+				58D1921A157676CE00424EC2 /* Frameworks */,
+				58D1921B157676CE00424EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E90FC31614BFEB00CEA625 /* PBXTargetDependency */,
+			);
+			name = TEAM;
+			productName = Team;
+			productReference = 58D1921D157676CE00424EC2 /* TEAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D19214157676CE00424EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Owen & Owen";
+			};
+			buildConfigurationList = 58D19217157676CE00424EC2 /* Build configuration list for PBXProject "Team" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58D19212157676CE00424EC2;
+			productRefGroup = 58D1921E157676CE00424EC2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 58E90FAC1614BF0000CEA625 /* Products */;
+					ProjectRef = 58E90FAB1614BF0000CEA625 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58D1921C157676CE00424EC2 /* TEAM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		58E90FB71614BF0000CEA625 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 58E90FB61614BF0000CEA625 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58E90FB91614BF0000CEA625 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 58E90FB81614BF0000CEA625 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58E90FBB1614BF0000CEA625 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 58E90FBA1614BF0000CEA625 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58E90FBD1614BF0000CEA625 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 58E90FBC1614BF0000CEA625 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58E90FBF1614BF0000CEA625 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 58E90FBE1614BF0000CEA625 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D1921B157676CE00424EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D1922E157676CE00424EC2 /* InfoPlist.strings in Resources */,
+				58D19237157676CE00424EC2 /* MainStoryboard_iPhone.storyboard in Resources */,
+				58D1923A157676CE00424EC2 /* MainStoryboard_iPad.storyboard in Resources */,
+				58DC96F81577C955006628C1 /* 112-group.png in Resources */,
+				58DC96FB1577CA9C006628C1 /* 96-book.png in Resources */,
+				58E330FA157AA11E0098E873 /* 10-medical.png in Resources */,
+				58C5BFC01583AB490025D2DA /* 157-wrench.png in Resources */,
+				588D6579158BB5DD004C399D /* happy.png in Resources */,
+				58CC8EAA1592728700BC297F /* Settings.bundle in Resources */,
+				58FD2CFC1592B3010044D38B /* cooltext718459296.png in Resources */,
+				58FD2CFE1592B6960044D38B /* cooltext718463598.png in Resources */,
+				58DEF2FF15937FFA00A9DF4B /* cooltext718877472.png in Resources */,
+				58DEF3011593807800A9DF4B /* cooltext718878760.png in Resources */,
+				58C1AD7F1594EED50066D148 /* Default.png in Resources */,
+				58C1AD8215950E3E0066D148 /* humming5757.png in Resources */,
+				58C1F5081597B8D8007D0096 /* bgblue.png in Resources */,
+				581EFA5415990237009165AC /* Doctor.json in Resources */,
+				58C6C9CF159A1609006AC342 /* Patient.json in Resources */,
+				58C6C9D2159A1829006AC342 /* Scan.json in Resources */,
+				58C6C9D4159A2190006AC342 /* Lesion.json in Resources */,
+				58C6C9D6159A2359006AC342 /* Studies.json in Resources */,
+				58C6C9D8159A256B006AC342 /* Settings.json in Resources */,
+				58C6C9E0159A538D006AC342 /* scanner5757.png in Resources */,
+				58C42382159E1EDD009268F9 /* button_0.png in Resources */,
+				58C42385159E1EF1009268F9 /* button_1.png in Resources */,
+				58C42388159E20AD009268F9 /* button_scan1.png in Resources */,
+				58C42389159E20AD009268F9 /* button_scan2.png in Resources */,
+				58C4238C159E2175009268F9 /* button_before0.png in Resources */,
+				58C4238D159E2175009268F9 /* button_before1.png in Resources */,
+				58D2A6E115A0E175007B029B /* TEAM_logo.jpg in Resources */,
+				58D2A6E415A0E710007B029B /* TEAM_logo5757.png in Resources */,
+				58C263E915A4CA840034C1A3 /* teamtext.png in Resources */,
+				58DBF80715A680C900B859F4 /* team-logo-health5757.png in Resources */,
+				58C7F00115A789A100C0BE19 /* TEAM_logo7272.png in Resources */,
+				58C6290915AA0286005C7BED /* team40200.png in Resources */,
+				58C6290C15AA043F005C7BED /* team40200ipad.png in Resources */,
+				58C6290E15AA062B005C7BED /* TEAM_logo2.jpg in Resources */,
+				58C6294A15AA1499005C7BED /* questionmark.png in Resources */,
+				58C6294C15AA15ED005C7BED /* questionmark3221.png in Resources */,
+				58C6295115AA1A5A005C7BED /* 84-lightbulb.png in Resources */,
+				58CA567B15AF7589007110A5 /* teamtext1.png in Resources */,
+				58E1EB2A15B109CD00697447 /* teamrecist7272.png in Resources */,
+				587FE38115B2008E0017C725 /* Default-Portrait~ipad.png in Resources */,
+				587FE38315B200990017C725 /* Default-Landscape~ipad.png in Resources */,
+				587FE38515B202980017C725 /* teamrecist.png in Resources */,
+				587FE38715B209A90017C725 /* teamtext2.png in Resources */,
+				58D4C81F15B34F700051D16A /* teamrecist5757.png in Resources */,
+				58CA21A315C05909004B272D /* uicheckbox_unchecked.png in Resources */,
+				58CA21A415C05909004B272D /* uicheckbox_checked.png in Resources */,
+				58CF566615D4511B0043977D /* overview.pdf in Resources */,
+				58CF566A15D46CEB0043977D /* teamweb.html in Resources */,
+				589AF8B115D49077001C687F /* login.png in Resources */,
+				589AF8B415D49088001C687F /* patients.png in Resources */,
+				589AF8BB15D4A6D7001C687F /* login.html in Resources */,
+				58C4A04C15D84B6D00E68D0A /* icon-recist.png in Resources */,
+				58C4A05215D84F5100E68D0A /* icon-twodoctors.png in Resources */,
+				58C4A05615D8678400E68D0A /* icon-scans.png in Resources */,
+				58D6110215D95BA90002EC7B /* icon-login.png in Resources */,
+				58D6110415D95CAD0002EC7B /* icon-team.png in Resources */,
+				58D6110615D95D390002EC7B /* icon-patients.png in Resources */,
+				58D6110815D960F10002EC7B /* icon-reports.png in Resources */,
+				58D6110A15D967F60002EC7B /* overview.html in Resources */,
+				58D6110C15D968C80002EC7B /* contact.html in Resources */,
+				58D6110E15D969040002EC7B /* patient-add.html in Resources */,
+				58D6111015D969230002EC7B /* doctor-add.html in Resources */,
+				58D6111215D969480002EC7B /* study-add.html in Resources */,
+				58D6111415D969700002EC7B /* scan-add.html in Resources */,
+				58D6111615D969920002EC7B /* delete.html in Resources */,
+				58D6111815D969B70002EC7B /* print-screen.html in Resources */,
+				58D6111A15D969E00002EC7B /* image-online.html in Resources */,
+				58D6111C15D969FD0002EC7B /* movie-online.html in Resources */,
+				58D6111E15D96A280002EC7B /* reports-online.html in Resources */,
+				58D6112015D96A540002EC7B /* patient-response.html in Resources */,
+				58D6112215D96A740002EC7B /* admin-server.html in Resources */,
+				58D6112415D96AA10002EC7B /* admin-users.html in Resources */,
+				58D6112615D96AC20002EC7B /* admin-types.html in Resources */,
+				58D6112815D96AED0002EC7B /* admin-backup.html in Resources */,
+				58D6112A15D96B160002EC7B /* recist-info.html in Resources */,
+				58D6112C15D96BEB0002EC7B /* adverse.html in Resources */,
+				58D6112E15D97A070002EC7B /* contact.png in Resources */,
+				58D6113015D97AE00002EC7B /* doctor.png in Resources */,
+				58D6113215D97B9D0002EC7B /* study.png in Resources */,
+				58D6113415D97C4B0002EC7B /* scans.png in Resources */,
+				58D6113615D97CD10002EC7B /* print.png in Resources */,
+				58D6113815D97DD70002EC7B /* movie.png in Resources */,
+				58D6113A15D97EDF0002EC7B /* admin.png in Resources */,
+				58D6113C15D97FCF0002EC7B /* adverse.png in Resources */,
+				58D6113E15D981790002EC7B /* edit.png in Resources */,
+				58D6114015D9969E0002EC7B /* overview.png in Resources */,
+				58C4468C15DD5CED0083D351 /* new-patient.tiff in Resources */,
+				58C4469015DD65650083D351 /* doctors.tiff in Resources */,
+				58C4469215DD666F0083D351 /* add-doctor.tiff in Resources */,
+				58C4469415DD67680083D351 /* delete-doctor.tiff in Resources */,
+				58C4469615DD71AF0083D351 /* studies.tiff in Resources */,
+				58C4469A15DD7AD10083D351 /* scans.tiff in Resources */,
+				58C4469C15DD7C160083D351 /* new-scan.tiff in Resources */,
+				58C4469E15DD7F1E0083D351 /* scan-details.tiff in Resources */,
+				58C446A215DD88B70083D351 /* scan-image.tiff in Resources */,
+				58C446A415DD89920083D351 /* add-lesion.tiff in Resources */,
+				58B8936615E003A100FE1957 /* scan-movie.tiff in Resources */,
+				58B8936915E0087100FE1957 /* scan-details-on.tiff in Resources */,
+				58B8936B15E00ADE00FE1957 /* study-doc.tiff in Resources */,
+				58B8936D15E00FF400FE1957 /* response.tiff in Resources */,
+				58B8936F15E014D800FE1957 /* details-report.tiff in Resources */,
+				58C0762415E06CE100C834DE /* response-report.tiff in Resources */,
+				58CBBB9015E6B5CF0086A3DF /* choose-image.tiff in Resources */,
+				58CBBB9215E6B5CF0086A3DF /* compare-images.tiff in Resources */,
+				5851409A15E70F26007FD59E /* response-thumb.png in Resources */,
+				58EDB88715E7E55000F7FB77 /* patient-data.tiff in Resources */,
+				585A3BB215EC56970051DF31 /* recist-info.png in Resources */,
+				58D7795615EFE64D0045791B /* add-study.tiff in Resources */,
+				5801A49F15FE4B23006204E2 /* team5757.png in Resources */,
+				5801A4A215FE4C3B006204E2 /* team114114.png in Resources */,
+				5801A4A915FE4DB6006204E2 /* Default@2x.png in Resources */,
+				5801A4AB15FE4E48006204E2 /* team7272.png in Resources */,
+				5801A4AD15FE4EB5006204E2 /* team144144.png in Resources */,
+				5801A4AF15FE500D006204E2 /* Default-Portrait@2x~ipad.png in Resources */,
+				5801A4B115FE511D006204E2 /* Default-Landscape@2x~ipad.png in Resources */,
+				5801A4B315FE586C006204E2 /* teamlogo.png in Resources */,
+				58E480161630838A0083EF8A /* team-schematic.png in Resources */,
+				58E480181630875A0083EF8A /* patients-search.tiff in Resources */,
+				58E4801A163095BC0083EF8A /* lesion-edit.tiff in Resources */,
+				584F63401634C18C008CA73F /* login1.png in Resources */,
+				58DA68981688BC82002B8892 /* Default-568h@2x.png in Resources */,
+				5870C412168CC31300C435B9 /* icon_graph.png in Resources */,
+				58DECB5E16936F9200D6ECF2 /* patientdetailgraph.tiff in Resources */,
+				58DECB6016936FA000D6ECF2 /* patientgraph.tiff in Resources */,
+				58DECB6216936FBE00D6ECF2 /* studypie.tiff in Resources */,
+				58DECB661693734100D6ECF2 /* graph-online.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D19219157676CE00424EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5865705E16334C620060A571 /* Reachability.m in Sources */,
+				58E25857162CBE6800B52EE0 /* TeamRules.m in Sources */,
+				58EAC20A1624C137005C9A18 /* MoviePlayerUserPrefs.m in Sources */,
+				58EAC20B1624C137005C9A18 /* MyImageView.m in Sources */,
+				58EAC20C1624C137005C9A18 /* MyLocalMovieViewController.m in Sources */,
+				58EAC20D1624C137005C9A18 /* MyMovieViewController.m in Sources */,
+				58EAC20E1624C137005C9A18 /* MyOverlayViewController.m in Sources */,
+				58EAC20F1624C137005C9A18 /* MyStreamingMovieViewController.m in Sources */,
+				58EAC2091624BCB7005C9A18 /* StudyURLDisplay.m in Sources */,
+				58EAC2081624B3D8005C9A18 /* CompareImages.m in Sources */,
+				58EAC2071624A912005C9A18 /* ChooseImages.m in Sources */,
+				58EAC206162495A9005C9A18 /* ViewReport.m in Sources */,
+				58EAC1DE16247CAA005C9A18 /* ViewImage.m in Sources */,
+				58FB77F11623602F00289556 /* LesionAdd.m in Sources */,
+				58FB77EC162330CA00289556 /* LesionEdit.m in Sources */,
+				5821B4C31621FB9600661EC2 /* ScanEdit.m in Sources */,
+				5854467B1620CEC300E4D469 /* ScanAdd.m in Sources */,
+				58B88A6F1620A6BC007C5830 /* ScanDisplay.m in Sources */,
+				58FE3F43161F79D700D3AD42 /* HTMLHelpView.m in Sources */,
+				5844884A161E32F9000DEC59 /* StudyAdd.m in Sources */,
+				58448849161E180B000DEC59 /* StudyEdit.m in Sources */,
+				58448848161E015D000DEC59 /* DoctorAdd.m in Sources */,
+				58FF47311618BBEA00A81BA2 /* PatientEdit.m in Sources */,
+				5818774716177005004EEBE5 /* PatientAdd.m in Sources */,
+				58E90FD41614CF0700CEA625 /* PatientDisplay.m in Sources */,
+				58E90FD31614CEF800CEA625 /* DoctorDisplay.m in Sources */,
+				58E90FD21614CED900CEA625 /* StudyDisplay.m in Sources */,
+				58E90FD11614CAAE00CEA625 /* LoginResults.m in Sources */,
+				58E90FD01614CA3800CEA625 /* SharedObject.m in Sources */,
+				58E90FCF1614CA2E00CEA625 /* Results.m in Sources */,
+				58D19230157676CE00424EC2 /* main.m in Sources */,
+				58D19234157676CE00424EC2 /* AppDelegate.m in Sources */,
+				58D1923D157676CE00424EC2 /* Team.xcdatamodeld in Sources */,
+				58D192561576839100424EC2 /* LogonViewController.m in Sources */,
+				581EFA6015993CFA009165AC /* RecistWebView.m in Sources */,
+				58C6294F15AA168A005C7BED /* TeamHelp.m in Sources */,
+				58C6295415AA2609005C7BED /* TeamOverview.m in Sources */,
+				588B47C415AB839100FEA035 /* UsersGuide.m in Sources */,
+				58CA21A815C0592B004B272D /* UICheckbox.m in Sources */,
+				5862303A16161055001200C0 /* PatientMap.m in Sources */,
+				5862303D161645D9001200C0 /* DoctorMap.m in Sources */,
+				5818774616176459004EEBE5 /* StudyMap.m in Sources */,
+				5818774A161787C3004EEBE5 /* DocandStudyMap.m in Sources */,
+				58B88A721620A95B007C5830 /* ScanMap.m in Sources */,
+				5821B4C616220E3400661EC2 /* ReportParamsMap.m in Sources */,
+				5821B4C9162216F900661EC2 /* LesionMap.m in Sources */,
+				58929EC8162B62420015D9A0 /* TeamResponse.m in Sources */,
+				58929ECB162B80030015D9A0 /* ResponseMap.m in Sources */,
+				58E2585A162CBF8600B52EE0 /* TeamWebResponse.m in Sources */,
+				58E704881631C3C6006590D4 /* DoctorEdit.m in Sources */,
+				5870C415168CC45300C435B9 /* TeamGraphResponse.m in Sources */,
+				585D85BF168E4E5600532E62 /* StudyGraphDisplay.m in Sources */,
+				586511B2168FA23C00BC5F55 /* StudyPieDisplay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58E90FC31614BFEB00CEA625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 58E90FC21614BFEB00CEA625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58D1922C157676CE00424EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D1922D157676CE00424EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58D19235157676CE00424EC2 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D19236157676CE00424EC2 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		58D19238157676CE00424EC2 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D19239157676CE00424EC2 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58D19244157676CE00424EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tom Owen (GE96ZX6E46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Owen (GE96ZX6E46)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		58D19245157676CE00424EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tom Owen (GE96ZX6E46)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tom Owen (GE96ZX6E46)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		58D19247157676CE00424EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TEAM RECIST.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RestKit/Tests/Vendor/OCHamcrest\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Team/Team-Prefix.pch";
+				INFOPLIST_FILE = "Team/Team-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58D19248157676CE00424EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TEAM RECIST.entitlements";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RestKit/Tests/Vendor/OCHamcrest\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Team/Team-Prefix.pch";
+				INFOPLIST_FILE = "Team/Team-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D19217157676CE00424EC2 /* Build configuration list for PBXProject "Team" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D19244157676CE00424EC2 /* Debug */,
+				58D19245157676CE00424EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D19246157676CE00424EC2 /* Build configuration list for PBXNativeTarget "TEAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D19247157676CE00424EC2 /* Debug */,
+				58D19248157676CE00424EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58D1923B157676CE00424EC2 /* Team.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58D1923C157676CE00424EC2 /* Team.xcdatamodel */,
+			);
+			currentVersion = 58D1923C157676CE00424EC2 /* Team.xcdatamodel */;
+			path = Team.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58D19214157676CE00424EC2 /* Project object */;
+}

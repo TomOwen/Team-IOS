@@ -1,0 +1,5 @@
+ [{ "study_id": "NCT1234", "study_owner": "BMS", "study_name": "PD1", "study_url":"sample.html"},
+  { "study_id": "NCT1235", "study_owner": "Merk", "study_name": "PD1", "study_url":"sample.doc"},
+  { "study_id": "Internal-100", "study_owner": "Internal", "study_name": "plx4032", "study_url":"sample.html"},
+  { "study_id": "NCT1237", "study_owner": "Genetech", "study_name": "PDl1", "study_url":"sample.html"},
+  { "study_id": "NCT1238", "study_owner": "NCI", "study_name": "PD1 and Plx4032", "study_url":"sample.html"},]
