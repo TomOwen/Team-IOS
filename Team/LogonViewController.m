@@ -49,7 +49,7 @@
     
     [RKClient clientWithBaseURLString:@"http://www.websoftmagic.com"];
     [RKClient sharedClient].username = @"team_admin" ;
-    [RKClient sharedClient].password = @"Teamdb143143" ;
+    [RKClient sharedClient].password = @"" ;
     [RKClient sharedClient].requestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
 }
 - (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response {
