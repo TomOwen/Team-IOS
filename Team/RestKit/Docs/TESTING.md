@@ -7,7 +7,7 @@ tests, you need to do a little bit of setup. These instructions are value for **
 
 1. Install the Xcode **Command Line Tools** by selecting the **Xcode** > **Preferences…** menu and then navigating to the **Downloads** tab, then clicking the **Install** button next to the appropriate entry in the table.
 2. After installation completes, ensure your command line Xcode installation is configured by executing `xcode-select -print-path`. If no path is returned, configure xcode-select by executing `xcode-select -switch /Applications/Xcode.app/Contents/Developer`.
-1. Ensure that you have **Ruby 1.9.2** available. We recommend installation via [RVM](http://beginrescueend.com/rvm/install/) or [Homebrew](http://mxcl.github.com/homebrew/).
+1. Ensure that you have **Ruby 1.9.2** available. We recommend installation via [RVM](http://rvm.io/rvm/install/) or [Homebrew](http://mxcl.github.com/homebrew/).
 1. Install the Ruby Bundler Gem (if necessary): `gem install bundler`
 1. Install the other required Gems via Bundler: `bundle`
 1. Start the Test server: `rake server`
